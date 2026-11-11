@@ -4,5 +4,5 @@ A speculative landing page for **Rostrum**: a verified home on the open social w
 
 > Speculative design concept. Not affiliated with or endorsed by the Modal Foundation, Eurosky or the European Parliament.
 
-- Page: `site/index.html` (single self-contained file; open it in a browser)
+- Page: `site/index.html`, with `site/styles.css` and `site/main.js` (static, no build step; open `index.html` in a browser)
 - Design spec: `docs/superpowers/specs/2026-11-11-rostrum-landing-page-design.md`
