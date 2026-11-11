@@ -39,19 +39,23 @@ Success for v1: a credible, polished page whose copy speaks to real political mo
    - Secondary CTA: **Request a briefing for your office**.
    - Visual: an **illustrative sample profile card** for a fictional MEP, clearly labelled "Illustrative profile". It shows the badge, handle, group-neutral details, a live poll and a record snippet.
 3. **Stats strip** (factual context): 720 MEPs · 27 member states · 24 official languages · ~450m citizens · hosted in the EU.
-4. **The problem** (positive framing): three short statements on impersonation and deepfakes, rented audiences, and borders and languages.
-5. **Four pillars**, each with its features:
+4. **Keep the reach, gain the ownership** (new requirement, 11 Nov). Rostrum is a service *for them*, built on the open social web: everything they value on the big platforms is kept, and the Atmosphere's benefits are added on top. Two lists:
+   - *What you keep*: real-time public conversation (posts, threads, replies, quotes, video, DMs); an audience already there (millions of people and journalists on Bluesky and other Atmosphere apps, from day one); familiar apps on every phone (Rostrum is the account, not another app to learn); cross-posting to the networks you still use, plus an open bridge to Mastodon and the fediverse; embeds in websites, newsletters and press; search, trending and discovery; bring your followers (migrate an existing Bluesky account intact, find people you already follow).
+   - *What you gain*: an account you own and can move; no owner's algorithm deciding who sees you; verification against the Parliament's register; moderation you choose; EU jurisdiction; a complete, exportable record.
+   - Echoed in the hero sub-line and in the FAQ ("Will I lose reach?", "Do I have to leave the platforms I use now?").
+5. **The problem** (positive framing): three short statements on impersonation and deepfakes, rented audiences, and borders and languages.
+6. **Four pillars**, each with its features:
    - **Legitimacy**: verified handle and badge (EP register), anti-impersonation and deepfake protection, transparency labels (AI-generated, paid promotion, affiliation).
    - **Ownership**: portable EU-hosted account (migrate in or out, keep followers), personal website / profile page, works across every Atmosphere app.
    - **Direct line**: constituent inbox and Q&A, polls and consultations, petitions, live town halls / AMAs, multilingual by default (24 languages).
    - **Influence**: topic hubs on EU files, press room / media connect, legislative record integration (EP open data), insights and analytics (privacy-preserving, no ads).
-6. **Citizen trust** (how participation stays credible): tiered results; open to all, with responses from citizens verified through the **EU Digital Identity Wallet** shown separately. Privacy-preserving attribute proofs ("resident in DE"), not identity disclosure. Polls and petitions are labelled as **not** official EP instruments, with pathways to the Committee on Petitions (PETI) and the European Citizens' Initiative.
-7. **For your office**: team delegation with roles, drafts and approvals, scheduling, audit trail of who posted what, moderation tools for replies, and an export of everything at any time.
-8. **How verification works**: three steps. (1) Reserve handle → (2) verify against the EP register plus an official EP email confirmation → (3) badge issued and labeller applied network-wide.
-9. **Trust and neutrality**: non-profit, free, cross-party, no ads, no data sales, EU jurisdiction, open protocol, Modal Foundation governance.
-10. **Founding cohort** band: spring 2027, with the primary CTA repeated.
-11. **FAQ** (about 8 questions): Is this an official EU service? Is it free? Can I leave and take my followers? What about my existing Bluesky account? Who verifies? Can my staff post? What about national/regional politicians? How are citizens verified?
-12. **Footer**: "Runs on Eurosky · a Modal Foundation project", speculative-concept disclaimer, privacy/terms stubs.
+7. **Citizen trust** (how participation stays credible): tiered results; open to all, with responses from citizens verified through the **EU Digital Identity Wallet** shown separately. Privacy-preserving attribute proofs ("resident in DE"), not identity disclosure. Polls and petitions are labelled as **not** official EP instruments, with pathways to the Committee on Petitions (PETI) and the European Citizens' Initiative.
+8. **For your office**: team delegation with roles, drafts and approvals, scheduling, audit trail of who posted what, moderation tools for replies, and an export of everything at any time.
+9. **How verification works**: three steps. (1) Reserve handle → (2) verify against the EP register plus an official EP email confirmation → (3) badge issued and labeller applied network-wide.
+10. **Trust and neutrality**: non-profit, free, cross-party, no ads, no data sales, EU jurisdiction, open protocol, Modal Foundation governance.
+11. **Founding cohort** band: spring 2027, with the primary CTA repeated.
+12. **FAQ** (about 8 questions): Is this an official EU service? Is it free? Can I leave and take my followers? What about my existing Bluesky account? Who verifies? Can my staff post? What about national/regional politicians? How are citizens verified?
+13. **Footer**: "Runs on Eurosky · a Modal Foundation project", speculative-concept disclaimer (also a slim banner at the top of the page: not affiliated with or endorsed by Modal, Eurosky or the European Parliament), privacy/terms stubs.
 
 ## 5. Calls to action (front-end only)
 
@@ -68,7 +72,7 @@ Success for v1: a credible, polished page whose copy speaks to real political mo
 
 ## 7. Build
 
-- Static `index.html` + `styles.css` + `main.js` in `site/`. No build step.
+- A single self-contained `site/index.html` (inline CSS and JS). No build step.
 - Google Fonts only as an external dependency.
 - Verification: open in headless Chromium at mobile and desktop widths, screenshot, check for console errors, tab through both forms.
 - Deliver: commit and push to `claude/kind-fermi-piadtc`; publish a private artifact preview.
