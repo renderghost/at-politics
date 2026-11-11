@@ -72,7 +72,7 @@ Success for v1: a credible, polished page whose copy speaks to real political mo
 
 ## 7. Build
 
-- `site/index.html` + `site/styles.css` + `site/main.js`. No build step.
+- `index.html` + `styles.css` + `main.js` at the repository root. No build step.
 - Google Fonts only as an external dependency.
 - Verification: open in headless Chromium at mobile and desktop widths, screenshot, check for console errors, tab through both forms.
 - Deliver: commit and push to `claude/kind-fermi-piadtc`; publish a private artifact preview.
