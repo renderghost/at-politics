@@ -1,0 +1,31 @@
+---
+import { OFFICIAL_LANGUAGES } from '../core/eu';
+const current = 'en';
+---
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="/" aria-label="Rostrum home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 22a13 13 0 0 1 26 0" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M8 22a8 8 0 0 1 16 0" fill="none" stroke="currentColor" stroke-width="2.2" opacity=".55"/><rect x="13" y="16" width="6" height="12" rx="1" fill="var(--accent)"/></svg>
+      Rostrum
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#open-web">Open social web</a>
+      <a href="/#features">What you get</a>
+      <a href="/#office">For your office</a>
+      <a href="/#verification">Verification</a>
+      <a href="/#faq">FAQ</a>
+    </nav>
+    <div class="header-actions">
+      <details class="lang">
+        <summary aria-label="Language: English. 24 languages at launch">EN <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+        <div class="lang-panel">
+          <p>This concept is in English. Rostrum launches in all 24 official EU languages.</p>
+          <ul>
+            {OFFICIAL_LANGUAGES.map((l) => <li lang={l.code} aria-current={l.code === current ? 'true' : undefined}>{l.name}</li>)}
+          </ul>
+        </div>
+      </details>
+      <a class="btn btn-primary btn-sm header-cta" href="/#reserve">Reserve your handle</a>
+    </div>
+  </div>
+</header>

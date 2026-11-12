@@ -1,0 +1,57 @@
+---
+import { MEMBER_STATES } from '../core/eu';
+---
+<section id="reserve" aria-labelledby="rs-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Founding cohort · spring 2027</p>
+      <h2 id="rs-title">Reserve your handle now. Help shape Rostrum before launch.</h2>
+      <p>Founding Members get their handle first and a direct say in what we build.</p>
+    </div>
+    <div class="cohort-grid">
+      <form class="form primary" id="reserve-form" novalidate aria-labelledby="rf-title">
+        <div class="form-head"><h3 id="rf-title">Reserve your verified handle</h3><p>For sitting Members of the European Parliament. Takes under a minute.</p></div>
+        <div id="rf-fields" class="row" style="gap:16px">
+          <div class="row two">
+            <div class="field"><label for="rf-first">First name</label><input id="rf-first" name="first" autocomplete="given-name" required aria-describedby="rf-first-err"><p class="err" id="rf-first-err" hidden></p></div>
+            <div class="field"><label for="rf-last">Last name</label><input id="rf-last" name="last" autocomplete="family-name" required aria-describedby="rf-last-err"><p class="err" id="rf-last-err" hidden></p></div>
+          </div>
+          <div class="form-preview" aria-live="polite"><span class="eyebrow" style="font-size:.7rem">Your handle</span><span class="mono" id="rf-handle">@firstname-lastname.rostrum.eu</span></div>
+          <div class="row two">
+            <div class="field"><label for="rf-email">Parliament email</label><input id="rf-email" name="email" type="email" autocomplete="email" placeholder="name@europarl.europa.eu" required aria-describedby="rf-email-hint rf-email-err"><p class="hint" id="rf-email-hint">We'll confirm through this address.</p><p class="err" id="rf-email-err" hidden></p></div>
+            <div class="field"><label for="rf-state">Member state</label><select id="rf-state" name="state" required aria-describedby="rf-state-err"><option value="">Select…</option>{MEMBER_STATES.map((m) => <option>{m}</option>)}</select><p class="err" id="rf-state-err" hidden></p></div>
+          </div>
+          <div class="check"><input type="checkbox" id="rf-founding" name="founding" checked><label for="rf-founding">I'd like to join the founding cohort and give feedback before launch.</label></div>
+          <div class="check"><input type="checkbox" id="rf-consent" name="consent" required aria-describedby="rf-consent-err"><label for="rf-consent">I agree that Rostrum may hold my handle and contact me about verification.</label></div>
+          <p class="err" id="rf-consent-err" hidden style="margin-top:-8px"></p>
+          <div><button class="btn btn-primary" type="submit">Reserve my handle</button></div>
+        </div>
+        <div class="success" id="rf-success" tabindex="-1" hidden>
+          <strong>Handle held</strong>
+          <p><span class="mono" id="rf-success-handle"></span></p>
+          <p>In the live service, we would now send a confirmation link to <span class="mono" id="rf-success-email"></span>. This concept page does not store or send anything.</p>
+        </div>
+      </form>
+
+      <form class="form" id="briefing" novalidate aria-labelledby="bf-title">
+        <div class="form-head"><h3 id="bf-title">Request a briefing for your office</h3><p>A 20-minute call for Members, chiefs of staff and communications teams, with a written briefing pack.</p></div>
+        <div id="bf-fields" class="row" style="gap:16px">
+          <div class="field"><label for="bf-name">Your name</label><input id="bf-name" name="name" autocomplete="name" required aria-describedby="bf-name-err"><p class="err" id="bf-name-err" hidden></p></div>
+          <div class="field"><label for="bf-role">Your role</label><select id="bf-role" name="role" required aria-describedby="bf-role-err"><option value="">Select…</option><option>Member of the European Parliament</option><option>Chief of staff</option><option>Policy adviser</option><option>Press or communications</option><option>Political group staff</option><option>Other</option></select><p class="err" id="bf-role-err" hidden></p></div>
+          <div class="field"><label for="bf-email">Office email</label><input id="bf-email" name="email" type="email" autocomplete="email" required aria-describedby="bf-email-err"><p class="err" id="bf-email-err" hidden></p></div>
+          <div class="field"><label for="bf-msg">What would you like to cover? <span style="font-weight:400;color:var(--ink-3)">(optional)</span></label><textarea id="bf-msg" name="message" rows="3" placeholder="For example: moving our Bluesky account, staff permissions"></textarea></div>
+          <div><button class="btn btn-ghost" type="submit">Request a briefing</button></div>
+        </div>
+        <div class="success" id="bf-success" tabindex="-1" hidden>
+          <strong>Request received</strong>
+          <p>In the live service, our team would reply within two working days to arrange a time. This concept page does not store or send anything.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  import '../scripts/handle';
+  import '../scripts/forms';
+</script>
