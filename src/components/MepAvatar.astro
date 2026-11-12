@@ -1,0 +1,8 @@
+---
+interface Props { src?: string; name: string; size?: number; lazy?: boolean }
+const { src, name, size = 48, lazy = true } = Astro.props;
+const initials = name.split(/\s+/).filter(Boolean).map((p) => p[0]).slice(0, 2).join('').toUpperCase();
+---
+{src
+  ? <img class="avatar-img" src={src} alt="" width={size} height={size} loading={lazy ? 'lazy' : 'eager'} decoding="async" referrerpolicy="no-referrer" />
+  : <span class="avatar-img avatar-fallback" aria-hidden="true" style={`width:${size}px;height:${size}px`}>{initials}</span>}
