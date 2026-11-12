@@ -1,15 +1,36 @@
-import { expect, test } from '@playwright/test';
+import { expect, test, type Page } from '@playwright/test';
+
+/** Collect errors from our own code and resources. Third-party loads (e.g. Google Fonts) are excluded:
+ *  Chromium reports a failed load as "Failed to load resource" with the URL only in the location. */
+function collectFirstPartyErrors(page: Page, origin: string): string[] {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  page.on('console', (m) => {
+    if (m.type() !== 'error') return;
+    const source = m.location().url;
+    if (source && !source.startsWith(origin)) return;
+    errors.push(`${m.text()} (${source || 'inline'})`);
+  });
+  return errors;
+}
 
 test.describe('landing page', () => {
-  test('renders without errors or horizontal overflow', async ({ page }) => {
-    const errors: string[] = [];
-    page.on('pageerror', (e) => errors.push(e.message));
-    page.on('console', (m) => { if (m.type() === 'error' && !m.text().includes('fonts.g')) errors.push(m.text()); });
+  test('renders without errors or horizontal overflow', async ({ page, baseURL }) => {
+    const errors = collectFirstPartyErrors(page, baseURL!);
     await page.goto('/');
     await expect(page.getByRole('heading', { level: 1 })).toContainText('Your mandate.');
     await expect(page.getByRole('note')).toContainText('Speculative concept');
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     expect(overflow).toBe(0);
+    expect(errors).toEqual([]);
+  });
+
+  test('stays error-free when Google Fonts is unavailable', async ({ page, baseURL }) => {
+    await page.route(/fonts\.(googleapis|gstatic)\.com/, (route) => route.fulfill({ status: 503, body: '' }));
+    const errors = collectFirstPartyErrors(page, baseURL!);
+    await page.goto('/');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText('Your mandate.');
+    await expect(page.locator('#hemicycle .seat')).toHaveCount(720);
     expect(errors).toEqual([]);
   });
 
