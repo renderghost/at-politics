@@ -1,0 +1,70 @@
+name: Sync MEP data
+
+# Nightly: European Parliament open data → Bluesky matching → data/*.json.
+# - New or removed public Atmosphere links need a human: they go to a pull request.
+# - Everything else (roster changes, follower counts) is committed straight to main.
+# - Any failure (source down, data fails validation, site fails to build) publishes nothing.
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-mep-data
+  cancel-in-progress: false
+
+env:
+  LINKS_BRANCH: data/atmosphere-links
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+
+      - name: Sync from European Parliament and Bluesky
+        id: sync
+        run: npm run sync
+
+      - name: Check the site still builds with the new data
+        run: npm run build
+
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CONFIRMED_CHANGED: ${{ steps.sync.outputs.confirmed-changed }}
+          ADDED: ${{ steps.sync.outputs.added }}
+          REMOVED: ${{ steps.sync.outputs.removed }}
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+
+          if [ "$CONFIRMED_CHANGED" = "true" ]; then
+            git commit -m "Data sync: Atmosphere links changed (+$ADDED, -$REMOVED)"
+            # One bot-owned branch and one open PR, refreshed each night until someone merges it.
+            git push --force origin "HEAD:$LINKS_BRANCH"
+            if [ -z "$(gh pr list --head "$LINKS_BRANCH" --state open --json number --jq '.[].number')" ]; then
+              gh pr create --base main --head "$LINKS_BRANCH" \
+                --title "Data sync: review new Atmosphere links" \
+                --body "The nightly sync changed which MEPs are publicly linked to an Atmosphere account (added: $ADDED, removed: $REMOVED). Check \`data/atmosphere.json\` before merging. To reject a match, add it to \`data/overrides.json\` under \`reject\`; to accept one from \`data/review-queue.json\`, add it under \`approve\`."
+            fi
+          else
+            git commit -m "Data sync: roster and statistics"
+            git push origin HEAD:main
+          fi

@@ -1,0 +1,61 @@
+---
+import MepAvatar from './MepAvatar.astro';
+import { pickCrossParty } from '../core/select';
+import { atmosphereStats as s, bskyProfileUrl, byGroup, formatCount, formatDate, onAtmosphere } from '../data';
+
+const cards = pickCrossParty(onAtmosphere.map((o) => ({ ...o, group: o.mep.group, followers: o.link.followers })), 12);
+const maxTotal = Math.max(...byGroup.map((g) => g.total));
+---
+<section id="on-the-atmosphere" class="atmo" aria-labelledby="atmo-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Already on the open social web</p>
+      <h2 id="atmo-title"><span class="atmo-count">{s.online}</span> of {s.total} MEPs already post on the Atmosphere</h2>
+      <p>These Members use Bluesky and other Atmosphere apps today. They are not Rostrum users and have not endorsed Rostrum. We show an account only when the European Parliament links to it, it uses the Member's own web domain, or Bluesky has verified it and it matches the Member's name and role.</p>
+    </div>
+
+    <div class="atmo-grid">
+      <div class="atmo-facts">
+        <dl class="atmo-stats">
+          <div><dt>Members on the Atmosphere</dt><dd>{s.online}</dd></div>
+          <div><dt>Member states represented</dt><dd>{s.countries}</dd></div>
+          <div><dt>Use their own domain as a handle</dt><dd>{s.ownDomain}</dd></div>
+          <div><dt>Already host their account on Eurosky</dt><dd>{s.onEurosky}</dd></div>
+        </dl>
+        <figure class="group-bars">
+          <figcaption class="eyebrow">By political group: on the Atmosphere of all Members</figcaption>
+          <ul>
+            {byGroup.map((g) => (
+              <li title={g.label}>
+                <span class="gb-name">{g.group}</span>
+                <span class="gb-track" style={`width:${(g.total / maxTotal) * 100}%`}>
+                  <span class="gb-fill" style={`width:${g.total ? (g.online / g.total) * 100 : 0}%`}></span>
+                </span>
+                <span class="gb-num">{g.online}<span class="gb-of"> / {g.total}</span></span>
+              </li>
+            ))}
+          </ul>
+        </figure>
+      </div>
+
+      <ul class="atmo-cards" aria-label="A cross-party selection of Members on the Atmosphere">
+        {cards.map(({ mep, link }) => (
+          <li class="atmo-card">
+            <MepAvatar src={link.avatar} name={`${mep.givenName} ${mep.familyName}`} size={44} />
+            <div class="ac-body">
+              <a class="ac-name" href={`/meps/${mep.slug}/`}>{mep.givenName} {mep.familyName}</a>
+              <span class="ac-meta">{mep.group} · {mep.country}</span>
+              <a class="ac-handle mono" href={bskyProfileUrl(link.handle)} rel="noopener" target="_blank">@{link.handle}</a>
+            </div>
+            <span class="ac-followers" title="Followers on Bluesky">{formatCount(link.followers)}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <p class="atmo-foot">
+      <span>Updated {formatDate(s.updated)} from European Parliament open data and the Bluesky public API.</span>
+      <a class="secondary-cta" href="/meps/">See all {s.total} Members</a>
+    </p>
+  </div>
+</section>

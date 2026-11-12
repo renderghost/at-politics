@@ -1,0 +1,96 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Base from '../../layouts/Base.astro';
+import { HANDLE_DOMAIN } from '../../core/slug';
+import type { AtmosphereLink, Mep } from '../../core/schema';
+import { bskyProfileUrl, formatDate, atmosphereStats, linkByMep, meps } from '../../data';
+
+export const getStaticPaths = (() => meps.map((mep) => ({ params: { slug: mep.slug }, props: { mep, link: linkByMep.get(mep.id) } }))) satisfies GetStaticPaths;
+
+interface Props { mep: Mep; link?: AtmosphereLink }
+const { mep, link } = Astro.props;
+const name = `${mep.givenName} ${mep.familyName}`;
+
+const HOW: Record<AtmosphereLink['method'], string> = {
+  'ep-listed': "Linked from this Member's European Parliament profile.",
+  domain: "Uses this Member's own web domain as its handle.",
+  verified: 'Verified by Bluesky, and its name and description match this Member.',
+  override: 'Checked and confirmed by the Rostrum team.',
+};
+const ACCOUNT_LABEL: Record<Mep['accounts'][number]['kind'], string> = {
+  x: 'X', instagram: 'Instagram', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube', blog: 'Blog', telegram: 'Telegram', mastodon: 'Mastodon', other: 'Other',
+};
+const ROLE_LABEL: Record<Mep['committees'][number]['role'], string> = { chair: 'Chair', 'vice-chair': 'Vice-chair', member: 'Member', substitute: 'Substitute' };
+const host = (url: string) => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return url; } };
+---
+<Base title={`${name}: draft Rostrum profile`} description={`Draft Rostrum profile for ${name}, Member of the European Parliament for ${mep.country}. Built from European Parliament open data; not created or endorsed by the Member.`}>
+  <section class="profile-page" aria-labelledby="mep-name">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/meps/">Members</a> <span aria-hidden="true">/</span> <span aria-current="page">{name}</span></nav>
+
+      <p class="draft-note" role="note"><strong>Draft profile.</strong> Built from European Parliament open data. Not created or endorsed by this Member.</p>
+
+      <div class="mp-grid">
+        <article class="mp-main">
+          <header class="mp-head">
+            <figure class="mp-photo">
+              <img src={mep.photo} alt={`Official portrait of ${name}`} width="150" height="190" decoding="async" />
+              <figcaption>© European Union – EP</figcaption>
+            </figure>
+            <div class="mp-id">
+              <p class="eyebrow">Member of the European Parliament · {mep.country}</p>
+              <h1 id="mep-name" class="page-title">{name}</h1>
+              <p class="mp-group">{mep.groupLabel} <span class="mp-group-short">({mep.group})</span></p>
+              {mep.nationalParty && <p class="mp-party">{mep.nationalParty}</p>}
+              <p class="mp-handle"><span class="eyebrow">Proposed Rostrum handle</span> <span class="mono">@{mep.slug}.{HANDLE_DOMAIN}</span></p>
+            </div>
+          </header>
+
+          <section class="mp-section" aria-labelledby="atmo-h">
+            <h2 id="atmo-h">On the open social web</h2>
+            {link ? (
+              <div class="mp-atmo">
+                <a class="mp-atmo-handle mono" href={bskyProfileUrl(link.handle)} rel="noopener" target="_blank">@{link.handle}</a>
+                <dl class="mp-atmo-stats">
+                  <div><dt>Followers</dt><dd>{link.followers.toLocaleString('en-GB')}</dd></div>
+                  <div><dt>Posts</dt><dd>{link.posts.toLocaleString('en-GB')}</dd></div>
+                  {link.handle.endsWith('.eurosky.social') && <div><dt>Hosted on</dt><dd>Eurosky</dd></div>}
+                </dl>
+                <p class="mp-how"><strong>How we know:</strong> {HOW[link.method]} Checked {formatDate(atmosphereStats.updated)}.</p>
+              </div>
+            ) : (
+              <p class="mp-none">We have not confirmed a Bluesky or other Atmosphere account for this Member. If they have one, they can claim this profile to link it.</p>
+            )}
+          </section>
+
+          {mep.committees.length > 0 && (
+            <section class="mp-section" aria-labelledby="com-h">
+              <h2 id="com-h">Committees</h2>
+              <ul class="mp-committees">
+                {mep.committees.map((c) => <li><span class="mono mp-code">{c.code}</span> {c.name} <span class="mp-role">{ROLE_LABEL[c.role]}</span></li>)}
+              </ul>
+            </section>
+          )}
+
+          <section class="mp-section" aria-labelledby="links-h">
+            <h2 id="links-h">Official links</h2>
+            <ul class="mp-links">
+              <li><a href={mep.epProfile} rel="noopener" target="_blank">European Parliament profile</a></li>
+              {mep.homepages.filter((h) => !/bsky\.app/.test(h)).map((h) => <li><a href={h} rel="noopener" target="_blank">{host(h)}</a></li>)}
+              {mep.accounts.map((a) => <li><a href={a.url} rel="noopener" target="_blank">{ACCOUNT_LABEL[a.kind]}</a></li>)}
+              {mep.email && <li><span class="mono">{mep.email}</span></li>}
+            </ul>
+          </section>
+        </article>
+
+        <aside class="mp-claim" aria-labelledby="claim-h">
+          <h2 id="claim-h">Is this you?</h2>
+          <p>Claim this profile to reserve <span class="mono">@{mep.slug}.{HANDLE_DOMAIN}</span>, connect your existing account and help shape Rostrum before launch.</p>
+          <a class="btn btn-primary" href={`/?mep=${mep.id}#reserve`}>Claim this profile</a>
+          <a class="secondary-cta" href="/#briefing">Request a briefing for your office</a>
+          <p class="mp-claim-note">We confirm every claim through the Member's official Parliament email address.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+</Base>
