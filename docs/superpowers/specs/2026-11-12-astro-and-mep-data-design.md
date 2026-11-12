@@ -1,6 +1,6 @@
 # Rostrum — Astro foundation and MEP data design
 
-Status: approved in chat · 2026-11-12
+Status: approved in chat · 2026-11-12 · revised during PR B (roster source, EP-listed rule, domain guards)
 
 ## 1. Intent
 
@@ -14,10 +14,10 @@ Deploy to Vercel first, without locking in: the host and, as far as practical, t
 
 ## 2. Findings that shape the design (probed 2026-11-12)
 
-- **Roster:** `https://www.europarl.europa.eu/meps/en/full-list/xml` returns 720 MEPs (name, country, political group, national party, EP id). It returns XML only with `Accept: application/xml`; otherwise JSON.
+- **Roster:** `https://www.europarl.europa.eu/meps/en/full-list/xml` returns 720 MEPs, but only to browser-like clients: scripts get a CloudFront bot challenge (403, or 202 with an empty body). **Revised during PR B:** the sync uses the open data API's `meps/show-current` instead. It lists the same 720 ids (verified), with group codes (`PPE`, `Verts/ALE`, …) and ISO country codes (`GR` for Greece). National party names come from `corporate-bodies/{id}` `prefLabel`.
 - **Detail:** `https://data.europarl.europa.eu/api/v2/meps/{id}?format=application/ld+json` adds `givenName`, `familyName`, `img` (EP photo URL), `hasEmail`, `homepage` (string or list), `account[]` (typed social links) and `hasMembership[]` (committees as org ids).
 - **No browser CORS** on either EP source, so data must be fetched ahead of time, not in the browser.
-- **EP lists no Bluesky accounts.** Across all 720: X 433, Instagram 426, Facebook 355+62, LinkedIn 122, YouTube 82, blog 8, Telegram 6, Mastodon 3, Bluesky 0.
+- **EP social-account fields list no Bluesky accounts** (X 433, Instagram 426, Facebook 355+62, LinkedIn 122, YouTube 82, blog 8, Telegram 6, Mastodon 3, Bluesky 0). **However, 18 MEPs list a `bsky.app/profile/…` URL as their homepage**, which is the strongest signal available (added as rule (a) below).
 - **Bluesky public API** (`public.api.bsky.app`) allows CORS and needs no auth. A name-search spike scored about 170 strong candidates, but with false positives (Manfred Weber → Lauren Weber; López Aguilar → Rep. Pete Aguilar).
 - Many MEPs carry Bluesky's own verification (issuer `bsky.app`). The EP's account (`europarl.europa.eu`) is not a trusted verifier and publishes no MEP lists or starter packs.
 
@@ -56,9 +56,11 @@ tests/e2e/       Playwright smoke tests
 Store the account's DID, not its handle (handles change).
 
 - **Confirmed** (public) if any of:
-  - (a) the account's handle equals a domain from the MEP's EP-listed homepage(s);
+  - (a) the EP lists the account (`bsky.app/profile/<handle-or-did>` homepage, resolved to its DID so later handle changes still match);
+  - (a2) the account's handle equals one of the MEP's own homepage domains **and** the name matches. Shared hosts (`bsky.app`, `linktr.ee`, social networks, blog platforms, `europa.eu`) never count. Without this guard, `bsky.app` homepages would have "confirmed" Bluesky's own account for 18 MEPs;
   - (b) Bluesky `verifiedStatus: valid` **and** the display name contains both the normalised given and family name **and** (the bio contains an MEP keyword in any EU language **or** the handle stem matches the EP-listed X username);
   - (c) a manual approval in `data/overrides.json`.
+  - Precedence when an MEP has several: override > EP-listed > domain > verified, then followers. A DID confirmed for two MEPs is published for neither and goes to review.
 - **Likely** (review queue only, never public): a name match plus a keyword or X-username match, without (a) to (c).
 - **Rejected:** recorded in `overrides.json` and never suggested again.
 - Unit tests use real fixtures, including the known false positives.
@@ -68,7 +70,7 @@ Store the account's DID, not its handle (handles change).
 1. Fetch the roster, then the 720 detail records (about 4 concurrent requests), then Bluesky search and profiles.
 2. Validate everything against zod schemas; write `data/*.json`.
 3. Roster and stat changes are committed directly to `main` (`data/` only).
-4. If the set of **confirmed** DIDs changes, open a PR instead of committing (human approval for new public links).
+4. If the set of **confirmed** DIDs changes, push to the single bot branch `data/atmosphere-links` and open a PR if none is open, instead of committing (human approval for new public links).
 5. On any source failure or schema failure, commit nothing and fail the job visibly.
 
 ## 7. Pages and features
