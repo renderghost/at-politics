@@ -28,3 +28,11 @@ export function handleFor(first: string, last: string): string {
 }
 
 export const HANDLE_DOMAIN = 'rostrum.eu';
+
+/** Map EP id → URL slug. Names are used as-is when unique; colliding names get the EP id appended. */
+export function uniqueSlugs(people: Array<{ id: string; givenName: string; familyName: string }>): Map<string, string> {
+  const base = new Map(people.map((p) => [p.id, handleFor(p.givenName, p.familyName) || p.id]));
+  const counts = new Map<string, number>();
+  for (const s of base.values()) counts.set(s, (counts.get(s) ?? 0) + 1);
+  return new Map([...base].map(([id, s]) => [id, counts.get(s)! > 1 ? `${s}-${id}` : s]));
+}
