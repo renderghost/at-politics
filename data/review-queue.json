@@ -1,0 +1,1121 @@
+{
+  "generatedAt": "2026-11-12T15:14:57.233Z",
+  "items": [
+    {
+      "mepId": "5392",
+      "mepName": "Lara WOLTERS",
+      "did": "did:plc:ly76gres5v44yo6rpusp3de4",
+      "handle": "larawolters.bsky.social",
+      "displayName": "Lara Wolters",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "22858",
+      "mepName": "Fabienne KELLER",
+      "did": "did:plc:wpjp4n2ovh2str2i5c3ivhbu",
+      "handle": "fabiennekeller.bsky.social",
+      "displayName": "Fabienne Keller",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "24942",
+      "mepName": "Ana MIRANDA PAZ",
+      "did": "did:plc:7bnte2prom5dihwvjc4w5zpo",
+      "handle": "anamirandapaz.bsky.social",
+      "displayName": "Ana Miranda",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "30482",
+      "mepName": "Younous OMARJEE",
+      "did": "did:plc:grhdqeijpplfusmxdt42pzds",
+      "handle": "younousomarjee.bsky.social",
+      "displayName": "Younous Omarjee",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "37312",
+      "mepName": "Christel SCHALDEMOSE",
+      "did": "did:plc:tsjbvgplkmh2uex6fgaaojzi",
+      "handle": "cschaldemose.bsky.social",
+      "displayName": "Christel Schaldemose",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "40599",
+      "mepName": "Sirpa PIETIKÄINEN",
+      "did": "did:plc:rfzcrkmu323v7jtzgjbrfvd6",
+      "handle": "spietikainen.bsky.social",
+      "displayName": "Sirpa Pietikäinen",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "72779",
+      "mepName": "Nadine MORANO",
+      "did": "did:plc:cblmgtyahvqngrty23n6uysn",
+      "handle": "nadinemorano.bsky.social",
+      "displayName": "Nadine Morano queen du dancefloor (auto-diag)",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "91636",
+      "mepName": "Marit MAIJ",
+      "did": "did:plc:epau3zrnr56olhz3vml224wk",
+      "handle": "maritmaij.bsky.social",
+      "displayName": "Marit Maij",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "95074",
+      "mepName": "Jeroen LENAERS",
+      "did": "did:plc:lgcgyywrldxqw7kahiozbsmo",
+      "handle": "jeroenlenaers.bsky.social",
+      "displayName": "Jeroen Lenaers",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "96709",
+      "mepName": "Morten LØKKEGAARD",
+      "did": "did:plc:rzo5gjmt7cxmbaqtm3coweq4",
+      "handle": "loekkegaard-mep.venstre.dk",
+      "displayName": "Morten Løkkegaard",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "96932",
+      "mepName": "Birgit SIPPEL",
+      "did": "did:plc:rzy42rclwbbfbsqwvbpcfnw3",
+      "handle": "birgitsippel.bsky.social",
+      "displayName": "Birgit Sippel",
+      "reasons": [
+        "name",
+        "bluesky-verified"
+      ]
+    },
+    {
+      "mepId": "97236",
+      "mepName": "Marie TOUSSAINT",
+      "did": "did:plc:rcuvr4wwohraplhxbvw6g6jv",
+      "handle": "marietouss1.bsky.social",
+      "displayName": "Marie Toussaint",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "98219",
+      "mepName": "Aura SALLA",
+      "did": "did:plc:oicn35vvy7ycs2ml2ktq4xzr",
+      "handle": "aurasalla.bsky.social",
+      "displayName": "Aura Salla",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "101585",
+      "mepName": "Niels FUGLSANG",
+      "did": "did:plc:aksxjirp2zgd56hdxza4qq5l",
+      "handle": "nielsfuglsang.bsky.social",
+      "displayName": "Niels Fuglsang",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "124806",
+      "mepName": "David MCALLISTER",
+      "did": "did:plc:7xsfp7q3jyliygwfpnb75cem",
+      "handle": "davidmcallister.bsky.social",
+      "displayName": "David McAllister",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "124836",
+      "mepName": "Maria NOICHL",
+      "did": "did:plc:myhevy7g2foh2i6gxylgcwz7",
+      "handle": "marianoichl.bsky.social",
+      "displayName": "Maria Noichl",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "124846",
+      "mepName": "Pina PICIERNO",
+      "did": "did:plc:vhpktx2wo6htah2oqhuublqg",
+      "handle": "pinapic.bsky.social",
+      "displayName": "Pina Picierno",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "124893",
+      "mepName": "Bogdan Andrzej ZDROJEWSKI",
+      "did": "did:plc:o32r6s3wvjblxapeizw5r7t2",
+      "handle": "zdrojewski.bsky.social",
+      "displayName": "Bogdan Zdrojewski MEP",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "124985",
+      "mepName": "Luke Ming FLANAGAN",
+      "did": "did:plc:sz5wcmtu3wn64h35rbyywezw",
+      "handle": "lukemingflanagan.bsky.social",
+      "displayName": "Luke ‘Ming’ Flanagan",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "125027",
+      "mepName": "Esteban GONZÁLEZ PONS",
+      "did": "did:plc:quqrc5xbocqn6r5d57ucqqkh",
+      "handle": "gonzalezpons.bsky.social",
+      "displayName": "Esteban González Pons",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "127766",
+      "mepName": "Jussi SARAMO",
+      "did": "did:plc:mtxtaemv37fbbazmfjwjzvg2",
+      "handle": "saramo.bsky.social",
+      "displayName": "Jussi Saramo",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "130100",
+      "mepName": "Hilde VAUTMANS",
+      "did": "did:plc:6rvwl2jceinpaqbp3qsqmuil",
+      "handle": "hildevautmans.bsky.social",
+      "displayName": "Hilde Vautmans",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "187917",
+      "mepName": "Marc BOTENGA",
+      "did": "did:plc:or223x4cmigp7oywqjgnag56",
+      "handle": "botengam.bsky.social",
+      "displayName": "Marc Botenga MEP",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "188096",
+      "mepName": "Jüri RATAS",
+      "did": "did:plc:kv6nnwjdzw3znektusfan7oe",
+      "handle": "juriratas.bsky.social",
+      "displayName": "Jüri Ratas",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "190713",
+      "mepName": "Lukas MANDL",
+      "did": "did:plc:ikdbrputwcspxtrx2nga25hq",
+      "handle": "lukasmandl.bsky.social",
+      "displayName": "Lukas Mandl",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "193292",
+      "mepName": "Tilly METZ",
+      "did": "did:plc:v7ccypeyux2yvk5zn7yx2uho",
+      "handle": "tillymetz.bsky.social",
+      "displayName": "Tilly Metz",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "197398",
+      "mepName": "Pär HOLMGREN",
+      "did": "did:plc:mudyazw4xnildzssf2wi2q32",
+      "handle": "parholmgren.bsky.social",
+      "displayName": "Pär Holmgren",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197401",
+      "mepName": "Karin KARLSBRO",
+      "did": "did:plc:wjcdzmbrwx7jf3i75ewhtvwa",
+      "handle": "karinkarlsbro.bsky.social",
+      "displayName": "Karin Karlsbro",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197435",
+      "mepName": "Gabriele BISCHOFF",
+      "did": "did:plc:fmvth7s6a3fnh4wv2yzeukhc",
+      "handle": "gabischoff.bsky.social",
+      "displayName": "Gabriele Bischoff",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197444",
+      "mepName": "Svenja HAHN",
+      "did": "did:plc:2dhl7kjn5eo73yommo3k36v3",
+      "handle": "svenjahahn.bsky.social",
+      "displayName": "Svenja Hahn 🇪🇺",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197490",
+      "mepName": "Magdalena ADAMOWICZ",
+      "did": "did:plc:ea3s4uzvmhdf37xlc4v2r2st",
+      "handle": "adamowicz-magda.bsky.social",
+      "displayName": "Magdalena Adamowicz",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197498",
+      "mepName": "Robert BIEDROŃ",
+      "did": "did:plc:sm74qbkkhh2nngqsudwolnvz",
+      "handle": "rbiedron.bsky.social",
+      "displayName": "Robert Biedroń",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "197498",
+      "mepName": "Robert BIEDROŃ",
+      "did": "did:plc:yjrplhqdhxao7w4b55ed7or2",
+      "handle": "robertbiedron.bsky.social",
+      "displayName": "Robert Biedroń",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197504",
+      "mepName": "Jérémy DECERLE",
+      "did": "did:plc:d2qzrfe44gkzm66jt7253rkm",
+      "handle": "jdecerle.bsky.social",
+      "displayName": "Jérémy DECERLE",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "197523",
+      "mepName": "Łukasz KOHUT",
+      "did": "did:plc:bfr6j3idb4khvl4ud5bhlwd2",
+      "handle": "lukaszkohut.bsky.social",
+      "displayName": "Łukasz KOHUT🇪🇺",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197534",
+      "mepName": "François-Xavier BELLAMY",
+      "did": "did:plc:pqltxqvxmvpb6zhtqsokht4s",
+      "handle": "fxbellamy.fr.web.brid.gy",
+      "displayName": "François-Xavier Bellamy | Site officiel [Unofficial]",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197543",
+      "mepName": "Bernard GUETTA",
+      "did": "did:plc:hxi6lsp2jeadzcba6wskgro7",
+      "handle": "dodolasaumure.bsky.social",
+      "displayName": "Bernard Guetta",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "197553",
+      "mepName": "Beata SZYDŁO",
+      "did": "did:plc:bczxm5y675fdnycqxdgovwl6",
+      "handle": "beataszydlo.bsky.social",
+      "displayName": "Beata Szydlo - prior primer of Poland",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197577",
+      "mepName": "Gilles BOYER",
+      "did": "did:plc:742der6h3sfcweravhu4fost",
+      "handle": "gillesboyer.bsky.social",
+      "displayName": "Gilles Boyer",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197581",
+      "mepName": "Stéphanie YON-COURTIN",
+      "did": "did:plc:x25z576om2nms6ylkir7hfrw",
+      "handle": "syoncourtin.bsky.social",
+      "displayName": "Stéphanie Yon-Courtin",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197589",
+      "mepName": "Laurence FARRENG",
+      "did": "did:plc:a74fgbl2cps6tddvawbecnoc",
+      "handle": "laurencefarreng.bsky.social",
+      "displayName": "Laurence Farreng",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197682",
+      "mepName": "Hannes HEIDE",
+      "did": "did:plc:mdbp5aatrhj7qoiyk5pulih6",
+      "handle": "hannesheide.bsky.social",
+      "displayName": "Hannes Heide",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197697",
+      "mepName": "Aurore LALUCQ",
+      "did": "did:plc:42amzfoajldjs7zll2fkfaza",
+      "handle": "aurorelalucq.bsky.social",
+      "displayName": "Aurore Lalucq",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197719",
+      "mepName": "Cristina MAESTRE",
+      "did": "did:plc:wbosqijrp554ukc5mpv6imae",
+      "handle": "crismaestre.bsky.social",
+      "displayName": "Cristina Maestre",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197770",
+      "mepName": "Martin HOJSÍK",
+      "did": "did:plc:nojuesviy2c6viyogod7vbn7",
+      "handle": "martinhojsik.bsky.social",
+      "displayName": "Martin Hojsik",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197773",
+      "mepName": "Bert-Jan RUISSEN",
+      "did": "did:plc:ahafiuzxkdmbttj624fntovl",
+      "handle": "hjaruissen.bsky.social",
+      "displayName": "Bert-Jan Ruissen (SGP EP)",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197780",
+      "mepName": "Bart GROOTHUIS",
+      "did": "did:plc:g4ydegvaclawd4qiurk52wmx",
+      "handle": "bartgroothuis.bsky.social",
+      "displayName": "Bart Groothuis",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "197782",
+      "mepName": "Mohammed CHAHIM",
+      "did": "did:plc:zks27elanmifmhm2pjtdecwp",
+      "handle": "chahim.bsky.social",
+      "displayName": "Mohammed Chahim",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "197839",
+      "mepName": "Radan KANEV",
+      "did": "did:plc:mfrvat6gx46alojx7hhjsiza",
+      "handle": "rmkanev.bsky.social",
+      "displayName": "Radan Kanev",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "197863",
+      "mepName": "Maria WALSH",
+      "did": "did:plc:6dohu7us54255c7lpd7wdd4a",
+      "handle": "mariawalshmep.bsky.social",
+      "displayName": "Maria Walsh MEP",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "198471",
+      "mepName": "Robert GABEL",
+      "did": "did:plc:6zm6u25grk7priiggu7mys6p",
+      "handle": "robert-gabel.bsky.social",
+      "displayName": "Robert Gabel",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "204332",
+      "mepName": "Barry ANDREWS",
+      "did": "did:plc:z74qjjj2v5mbsf5rgb2zjk3z",
+      "handle": "barryandrewsmep.bsky.social",
+      "displayName": "Barry Andrews MEP",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "204336",
+      "mepName": "Miriam LEXMANN",
+      "did": "did:plc:zwnuzsagqivpx2tst3e4novj",
+      "handle": "miriammlex.bsky.social",
+      "displayName": "Miriam M. Lexmann",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "204346",
+      "mepName": "Dominik TARCZYŃSKI",
+      "did": "did:plc:l5a2nalagglrrzryo2a3o5ox",
+      "handle": "d-tarczynski.bsky.social",
+      "displayName": "Dominik Tarczyński MEP",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "204413",
+      "mepName": "Marcos ROS SEMPERE",
+      "did": "did:plc:tyytwjzmkyd7vfnsvhwo4wun",
+      "handle": "mrossemp.bsky.social",
+      "displayName": "Marcos Ros Sempere",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "220871",
+      "mepName": "Rihards KOLS",
+      "did": "did:plc:bzvhvc7dfy4vscqahad4im6b",
+      "handle": "rihardskols.bsky.social",
+      "displayName": "Rihards Kols",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "233862",
+      "mepName": "Matjaž NEMEC",
+      "did": "did:plc:xv4h642wjzlee3f5h3am2p6t",
+      "handle": "matjaznemec.bsky.social",
+      "displayName": "Matjaž Nemec MEP",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "236053",
+      "mepName": "Marina MESURE",
+      "did": "did:plc:d5tc4uzqssehn4aotvxz3k3z",
+      "handle": "marinamesure.bsky.social",
+      "displayName": "Marina Mesure",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "245018",
+      "mepName": "Christophe CLERGEAU",
+      "did": "did:plc:xjaskjuha7uxfxmgsw2uveje",
+      "handle": "christopheclergeau.bsky.social",
+      "displayName": "Christophe Clergeau ",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "245770",
+      "mepName": "Irene MONTERO",
+      "did": "did:plc:u5h55uwly2nb52x3wqprhm4k",
+      "handle": "irenemonterog.bsky.social",
+      "displayName": "Irene Montero",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256810",
+      "mepName": "Mika AALTOLA",
+      "did": "did:plc:uchizfklu3rm5tazy5trx4it",
+      "handle": "mikaaaltola.bsky.social",
+      "displayName": "Mika Aaltola",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256823",
+      "mepName": "Nikolas FARANTOURIS",
+      "did": "did:plc:tbut5qdjtsfzg4evrftqm6cz",
+      "handle": "nikolasfarantouris.bsky.social",
+      "displayName": "Νικόλας Φαραντούρης / Nikolas Farantouris",
+      "reasons": [
+        "name",
+        "bluesky-verified"
+      ]
+    },
+    {
+      "mepId": "256824",
+      "mepName": "Yannis MANIATIS",
+      "did": "did:plc:t7sl52s645bbj6cesvteiomj",
+      "handle": "ymaniatis.bsky.social",
+      "displayName": "Yannis Maniatis",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256840",
+      "mepName": "Jan FARSKÝ",
+      "did": "did:plc:f6mh4lcrm26jlkcmwedlm3va",
+      "handle": "janfarsky.bsky.social",
+      "displayName": "Jan Farský",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256841",
+      "mepName": "Helmut BRANDSTÄTTER",
+      "did": "did:plc:ukj2qhm4akrunezgrwah3qtt",
+      "handle": "hbrandstaetter.bsky.social",
+      "displayName": "Helmut Brandstätter",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256845",
+      "mepName": "Ondřej KRUTÍLEK",
+      "did": "did:plc:nipzeyhg54w6xek4ulrmertw",
+      "handle": "ondrejkrutilek.bsky.social",
+      "displayName": "Ondřej Krutílek",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256847",
+      "mepName": "Danuše NERUDOVÁ",
+      "did": "did:plc:37qr5di4rhnips7mtgzzwvgc",
+      "handle": "danusenerudova.bsky.social",
+      "displayName": "Danuše Nerudová",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256870",
+      "mepName": "Valérie DEVAUX",
+      "did": "did:plc:rxzh5d654hsidkpaebqq62fh",
+      "handle": "devauxvalerie.bsky.social",
+      "displayName": "Valérie Devaux",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256879",
+      "mepName": "Yvan VEROUGSTRAETE",
+      "did": "did:plc:5fq3ln3adjzs2he7cocwac4w",
+      "handle": "yvanverougstraete.bsky.social",
+      "displayName": "Yvan Verougstraete",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256879",
+      "mepName": "Yvan VEROUGSTRAETE",
+      "did": "did:plc:ik34pyait3bikamczua6vck2",
+      "handle": "yverougstraete.bsky.social",
+      "displayName": "Yvan Verougstraete",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256887",
+      "mepName": "Wouter BEKE",
+      "did": "did:plc:pigi5zslaseca4snwywfrydo",
+      "handle": "wouterbeke.bsky.social",
+      "displayName": "Wouter Beke",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256889",
+      "mepName": "Liesbet SOMMEN",
+      "did": "did:plc:rnf6ritanqjcccr7pqbkupcm",
+      "handle": "liesbetsommen.bsky.social",
+      "displayName": "Liesbet Sommen",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256901",
+      "mepName": "Jean-Marc GERMAIN",
+      "did": "did:plc:p76nsap6wexgcsxde42oghrg",
+      "handle": "jmgermain.bsky.social",
+      "displayName": "Jean-Marc Germain",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256905",
+      "mepName": "Eric SARGIACOMO",
+      "did": "did:plc:kjqu7xyuffi4fmmcspj5vmao",
+      "handle": "erics40.bsky.social",
+      "displayName": "Eric Sargiacomo",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256906",
+      "mepName": "Claire FITA",
+      "did": "did:plc:eukwyd7zh2dnyoxtgmyb6osr",
+      "handle": "clairefita.bsky.social",
+      "displayName": "Claire Fita",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256913",
+      "mepName": "Emma FOURREAU",
+      "did": "did:plc:sxq3tch2c6n3asiyiacbcaao",
+      "handle": "emma-fourreau.bsky.social",
+      "displayName": "Emma Fourreau",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256915",
+      "mepName": "Mélissa CAMARA",
+      "did": "did:plc:7x6vx7x75aemqifj5x46aesf",
+      "handle": "melissacamara.bsky.social",
+      "displayName": "Mélissa Camara",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256964",
+      "mepName": "Nela RIEHL",
+      "did": "did:plc:nktcdc54rhrfmqsqxiaensw2",
+      "handle": "nela-riehl.bsky.social",
+      "displayName": "Nela Riehl",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256965",
+      "mepName": "Kai TEGETHOFF",
+      "did": "did:plc:lvepfhggtjpf534lew7u5boc",
+      "handle": "kaitegethoff.bsky.social",
+      "displayName": "Kai Tegethoff",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256970",
+      "mepName": "Raquel GARCÍA HERMIDA-VAN DER WALLE",
+      "did": "did:plc:326a53m6b76efibdd7mqic4m",
+      "handle": "raquelgarciaher.bsky.social",
+      "displayName": "Raquel García Hermida-van der Walle",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256976",
+      "mepName": "Brigitte VAN DEN BERG",
+      "did": "did:plc:5mkuugko4zgmaj5uevma5ygc",
+      "handle": "brigittevdberg.bsky.social",
+      "displayName": "Brigitte van den Berg",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "256978",
+      "mepName": "Reinier VAN LANSCHOT",
+      "did": "did:plc:oyklvrprsopv5fydh4rcv24x",
+      "handle": "reiniervanlanschot.volteuropa.org",
+      "displayName": "Reinier Van Lanschot",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "256990",
+      "mepName": "Anna STROLENBERG",
+      "did": "did:plc:bngyet4gwxdl32xd2b7o3dji",
+      "handle": "annastrolenberg.volteuropa.org",
+      "displayName": "Anna Strolenberg",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257013",
+      "mepName": "Ľubica KARVAŠOVÁ",
+      "did": "did:plc:cpl2hnowkj22mlsop6223vsj",
+      "handle": "lubicakarvasova.bsky.social",
+      "displayName": "Lubica Karvasova",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "257014",
+      "mepName": "Veronika CIFROVÁ OSTRIHOŇOVÁ",
+      "did": "did:plc:657pjhzk7xywh5fhvytcoroz",
+      "handle": "vostrihonova.eurosky.social",
+      "displayName": "Veronika Cifrová Ostrihoňová",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257020",
+      "mepName": "Stine BOSSE",
+      "did": "did:plc:gpyyr3ggbclgdu5clobxwvuk",
+      "handle": "stinebosse.bsky.social",
+      "displayName": "Stine Bosse",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257031",
+      "mepName": "Dariusz JOŃSKI",
+      "did": "did:plc:xc6ig34xmber3h66mmzzjx3g",
+      "handle": "dariuszjonski.bsky.social",
+      "displayName": "Dariusz Joński",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "257037",
+      "mepName": "Michał KOBOSKO",
+      "did": "did:plc:3hg3mlzfmgaogpgfavoy44kh",
+      "handle": "michalkobosko.bsky.social",
+      "displayName": "Michal Kobosko MEP",
+      "reasons": [
+        "name",
+        "keyword",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "257037",
+      "mepName": "Michał KOBOSKO",
+      "did": "did:plc:vwqynxyxkncaewcphfgmp7vn",
+      "handle": "michalkobosko.wsocial.eu",
+      "displayName": "Michal Kobosko",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    },
+    {
+      "mepId": "257044",
+      "mepName": "Rasmus NORDQVIST",
+      "did": "did:plc:5nanwgixtmhonwcr7ceo5kzy",
+      "handle": "rasmusnordqvist.bsky.social",
+      "displayName": "Rasmus Nordqvist",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257045",
+      "mepName": "Michał WAWRYKIEWICZ",
+      "did": "did:plc:d2plb6x65c3kkbz7n7dcy6wv",
+      "handle": "michalwawrykiewicz.bsky.social",
+      "displayName": "Michał Wawrykiewicz MEP",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257079",
+      "mepName": "Sérgio GONÇALVES",
+      "did": "did:plc:l2yzvnbs2zpjuqqxty4m6j2t",
+      "handle": "sergiogoncalvespt.bsky.social",
+      "displayName": "Sérgio Gonçalves",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257084",
+      "mepName": "Joanna SCHEURING-WIELGUS",
+      "did": "did:plc:tp6b33mycmtc3po7rl725u2x",
+      "handle": "joannasw.bsky.social",
+      "displayName": "Joanna Scheuring-Wielgus",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257130",
+      "mepName": "Cristina GUARDA",
+      "did": "did:plc:gkajjnljltu4jjqdmly7oma6",
+      "handle": "cristinaguarda.bsky.social",
+      "displayName": "Cristina Guarda",
+      "reasons": [
+        "name",
+        "bluesky-verified"
+      ]
+    },
+    {
+      "mepId": "257238",
+      "mepName": "Aodhán Ó RÍORDÁIN",
+      "did": "did:plc:s7zez45zm3ikd7hpgatvwlx4",
+      "handle": "aodhanoriordain.bsky.social",
+      "displayName": "Aodhán Ó Ríordáin MEP",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257298",
+      "mepName": "Ciaran MULLOOLY",
+      "did": "did:plc:yknhftizmxefnzpw25cx2zaz",
+      "handle": "ciaranmulloolymep.bsky.social",
+      "displayName": "Ciaran Mullooly MEP",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257300",
+      "mepName": "Michael MCNAMARA",
+      "did": "did:plc:3vopku7eu3xcvw5spxhk7iff",
+      "handle": "mcnamaramep.bsky.social",
+      "displayName": "Michael McNamara MEP",
+      "reasons": [
+        "name",
+        "keyword"
+      ]
+    },
+    {
+      "mepId": "257727",
+      "mepName": "Pierfrancesco MARAN",
+      "did": "did:plc:3wcdlqsq3xgyz6eplcjmixve",
+      "handle": "piermaran.wsocial.eu",
+      "displayName": "Pierfrancesco Maran",
+      "reasons": [
+        "name",
+        "x-handle"
+      ]
+    }
+  ]
+}
