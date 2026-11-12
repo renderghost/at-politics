@@ -1,0 +1,24 @@
+<section class="chamber" aria-labelledby="chamber-title">
+  <div class="wrap">
+    <div class="chamber-grid">
+      <div>
+        <h2 id="chamber-title">720 seats. Each one a real, accountable voice.</h2>
+        <p>On Rostrum, a verified handle is only ever issued to a sitting Member. Citizens, journalists and colleagues can trust who they are hearing from, in any app.</p>
+      </div>
+      <svg class="hemicycle" id="hemicycle" viewBox="0 0 1000 530" role="img" aria-label="Diagram of a 720-seat parliamentary hemicycle with one seat highlighted as yours."></svg>
+    </div>
+    <div class="stats" role="list">
+      <div class="stat" role="listitem"><b>720</b><span>Members of the European Parliament</span></div>
+      <div class="stat" role="listitem"><b>27</b><span>member states</span></div>
+      <div class="stat" role="listitem"><b>24</b><span>official languages</span></div>
+      <div class="stat" role="listitem"><b>450m</b><span>citizens represented</span></div>
+      <div class="stat" role="listitem"><b>EU</b><span>hosted in Germany, under EU law</span></div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { drawHemicycle } from '../scripts/hemicycle';
+  const svg = document.getElementById('hemicycle');
+  if (svg instanceof SVGSVGElement) drawHemicycle(svg);
+</script>
