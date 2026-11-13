@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T15:14:57.233Z",
+  "generatedAt": "2026-11-13T11:04:20.093Z",
   "source": "European Parliament open data API (data.europarl.europa.eu)",
   "meps": [
     {
@@ -591,12 +591,16 @@
       "groupLabel": "Non-attached Members",
       "nationalParty": "Junts i Lliures per Europa",
       "photo": "https://www.europarl.europa.eu/mepphoto/202352.jpg",
-      "email": "antoni.cominioliveres@europarl.europa.eu",
+      "email": "toni.comin@europarl.europa.eu",
       "homepages": [],
       "accounts": [
         {
           "kind": "x",
           "url": "https://twitter.com/toni_comin"
+        },
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/tonicomin?vrfl=dDlvNmRrano3Z3E0"
         }
       ],
       "committees": [
