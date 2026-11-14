@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-12T15:14:57.233Z",
+  "generatedAt": "2026-11-14T10:30:24.886Z",
   "items": [
+    {
+      "mepId": "2268",
+      "mepName": "Jonas SJÖSTEDT",
+      "did": "did:plc:xmck2aazkczsvc5fxsvzlirv",
+      "handle": "jonassjostedt.bsky.social",
+      "displayName": "Jonas Sjöstedt",
+      "reasons": [
+        "name",
+        "bluesky-verified"
+      ]
+    },
     {
       "mepId": "5392",
       "mepName": "Lara WOLTERS",
@@ -128,15 +139,14 @@
       ]
     },
     {
-      "mepId": "97236",
-      "mepName": "Marie TOUSSAINT",
-      "did": "did:plc:rcuvr4wwohraplhxbvw6g6jv",
-      "handle": "marietouss1.bsky.social",
-      "displayName": "Marie Toussaint",
+      "mepId": "96940",
+      "mepName": "Gerben-Jan GERBRANDY",
+      "did": "did:plc:qmelqovlsblzpacblckcjoqv",
+      "handle": "gerbrandy.bsky.social",
+      "displayName": "Gerben-Jan Gerbrandy",
       "reasons": [
         "name",
-        "keyword",
-        "x-handle"
+        "bluesky-verified"
       ]
     },
     {
@@ -199,17 +209,6 @@
       ]
     },
     {
-      "mepId": "124893",
-      "mepName": "Bogdan Andrzej ZDROJEWSKI",
-      "did": "did:plc:o32r6s3wvjblxapeizw5r7t2",
-      "handle": "zdrojewski.bsky.social",
-      "displayName": "Bogdan Zdrojewski MEP",
-      "reasons": [
-        "name",
-        "keyword"
-      ]
-    },
-    {
       "mepId": "124985",
       "mepName": "Luke Ming FLANAGAN",
       "did": "did:plc:sz5wcmtu3wn64h35rbyywezw",
@@ -226,29 +225,6 @@
       "did": "did:plc:quqrc5xbocqn6r5d57ucqqkh",
       "handle": "gonzalezpons.bsky.social",
       "displayName": "Esteban González Pons",
-      "reasons": [
-        "name",
-        "keyword",
-        "x-handle"
-      ]
-    },
-    {
-      "mepId": "127766",
-      "mepName": "Jussi SARAMO",
-      "did": "did:plc:mtxtaemv37fbbazmfjwjzvg2",
-      "handle": "saramo.bsky.social",
-      "displayName": "Jussi Saramo",
-      "reasons": [
-        "name",
-        "keyword"
-      ]
-    },
-    {
-      "mepId": "130100",
-      "mepName": "Hilde VAUTMANS",
-      "did": "did:plc:6rvwl2jceinpaqbp3qsqmuil",
-      "handle": "hildevautmans.bsky.social",
-      "displayName": "Hilde Vautmans",
       "reasons": [
         "name",
         "keyword",
@@ -291,17 +267,6 @@
       ]
     },
     {
-      "mepId": "193292",
-      "mepName": "Tilly METZ",
-      "did": "did:plc:v7ccypeyux2yvk5zn7yx2uho",
-      "handle": "tillymetz.bsky.social",
-      "displayName": "Tilly Metz",
-      "reasons": [
-        "name",
-        "keyword"
-      ]
-    },
-    {
       "mepId": "197398",
       "mepName": "Pär HOLMGREN",
       "did": "did:plc:mudyazw4xnildzssf2wi2q32",
@@ -318,18 +283,6 @@
       "did": "did:plc:wjcdzmbrwx7jf3i75ewhtvwa",
       "handle": "karinkarlsbro.bsky.social",
       "displayName": "Karin Karlsbro",
-      "reasons": [
-        "name",
-        "keyword",
-        "x-handle"
-      ]
-    },
-    {
-      "mepId": "197435",
-      "mepName": "Gabriele BISCHOFF",
-      "did": "did:plc:fmvth7s6a3fnh4wv2yzeukhc",
-      "handle": "gabischoff.bsky.social",
-      "displayName": "Gabriele Bischoff",
       "reasons": [
         "name",
         "keyword",
@@ -507,18 +460,6 @@
       ]
     },
     {
-      "mepId": "197770",
-      "mepName": "Martin HOJSÍK",
-      "did": "did:plc:nojuesviy2c6viyogod7vbn7",
-      "handle": "martinhojsik.bsky.social",
-      "displayName": "Martin Hojsik",
-      "reasons": [
-        "name",
-        "keyword",
-        "x-handle"
-      ]
-    },
-    {
       "mepId": "197773",
       "mepName": "Bert-Jan RUISSEN",
       "did": "did:plc:ahafiuzxkdmbttj624fntovl",
@@ -528,28 +469,6 @@
         "name",
         "keyword",
         "x-handle"
-      ]
-    },
-    {
-      "mepId": "197780",
-      "mepName": "Bart GROOTHUIS",
-      "did": "did:plc:g4ydegvaclawd4qiurk52wmx",
-      "handle": "bartgroothuis.bsky.social",
-      "displayName": "Bart Groothuis",
-      "reasons": [
-        "name",
-        "keyword"
-      ]
-    },
-    {
-      "mepId": "197782",
-      "mepName": "Mohammed CHAHIM",
-      "did": "did:plc:zks27elanmifmhm2pjtdecwp",
-      "handle": "chahim.bsky.social",
-      "displayName": "Mohammed Chahim",
-      "reasons": [
-        "name",
-        "keyword"
       ]
     },
     {
@@ -656,17 +575,6 @@
       ]
     },
     {
-      "mepId": "236053",
-      "mepName": "Marina MESURE",
-      "did": "did:plc:d5tc4uzqssehn4aotvxz3k3z",
-      "handle": "marinamesure.bsky.social",
-      "displayName": "Marina Mesure",
-      "reasons": [
-        "name",
-        "keyword"
-      ]
-    },
-    {
       "mepId": "245018",
       "mepName": "Christophe CLERGEAU",
       "did": "did:plc:xjaskjuha7uxfxmgsw2uveje",
@@ -686,6 +594,17 @@
       "reasons": [
         "name",
         "keyword"
+      ]
+    },
+    {
+      "mepId": "256805",
+      "mepName": "Li ANDERSSON",
+      "did": "did:plc:cwxbfvkqkhqidqsqr7kbxjc4",
+      "handle": "liandersson.bsky.social",
+      "displayName": "Li Andersson",
+      "reasons": [
+        "name",
+        "bluesky-verified"
       ]
     },
     {
@@ -985,6 +904,17 @@
       ]
     },
     {
+      "mepId": "257023",
+      "mepName": "Per CLAUSEN",
+      "did": "did:plc:hf5vdb6hkto4s57edstxtzvq",
+      "handle": "perclausen.bsky.social",
+      "displayName": "Per Clausen",
+      "reasons": [
+        "name",
+        "bluesky-verified"
+      ]
+    },
+    {
       "mepId": "257031",
       "mepName": "Dariusz JOŃSKI",
       "did": "did:plc:xc6ig34xmber3h66mmzzjx3g",
@@ -1071,17 +1001,6 @@
       "reasons": [
         "name",
         "bluesky-verified"
-      ]
-    },
-    {
-      "mepId": "257238",
-      "mepName": "Aodhán Ó RÍORDÁIN",
-      "did": "did:plc:s7zez45zm3ikd7hpgatvwlx4",
-      "handle": "aodhanoriordain.bsky.social",
-      "displayName": "Aodhán Ó Ríordáin MEP",
-      "reasons": [
-        "name",
-        "keyword"
       ]
     },
     {
