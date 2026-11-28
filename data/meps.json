@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:04:20.093Z",
+  "generatedAt": "2026-11-28T11:51:46.681Z",
   "source": "European Parliament open data API (data.europarl.europa.eu)",
   "meps": [
     {
@@ -2605,6 +2605,32 @@
       "epProfile": "https://www.europarl.europa.eu/meps/en/257063"
     },
     {
+      "id": "220908",
+      "slug": "branko-grims",
+      "fullName": "Branko GRIMS",
+      "givenName": "Branko",
+      "familyName": "Grims",
+      "country": "Slovenia",
+      "group": "PfE",
+      "groupLabel": "Patriots for Europe Group",
+      "nationalParty": "Slovenska demokratska stranka",
+      "photo": "https://www.europarl.europa.eu/mepphoto/220908.jpg",
+      "email": "branko.grims@europarl.europa.eu",
+      "homepages": [],
+      "accounts": [
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/branko.grims.eu/"
+        },
+        {
+          "kind": "x",
+          "url": "https://x.com/BrankoGrimsX1"
+        }
+      ],
+      "committees": [],
+      "epProfile": "https://www.europarl.europa.eu/meps/en/220908"
+    },
+    {
       "id": "197557",
       "slug": "christophe-grudler",
       "fullName": "Christophe GRUDLER",
@@ -4655,11 +4681,6 @@
           "code": "LIBE",
           "name": "Civil Liberties, Justice and Home Affairs",
           "role": "member"
-        },
-        {
-          "code": "IMCO",
-          "name": "Internal Market and Consumer Protection",
-          "role": "substitute"
         }
       ],
       "epProfile": "https://www.europarl.europa.eu/meps/en/220840"
@@ -11216,7 +11237,24 @@
       "photo": "https://www.europarl.europa.eu/mepphoto/204332.jpg",
       "email": "barry.andrews@europarl.europa.eu",
       "homepages": [],
-      "accounts": [],
+      "accounts": [
+        {
+          "kind": "x",
+          "url": "https://x.com/BarryAndrewsMEP"
+        },
+        {
+          "kind": "instagram",
+          "url": "https://www.instagram.com/barryandrewsmep/"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/barryandrewsmep/"
+        },
+        {
+          "kind": "facebook",
+          "url": "https://www.facebook.com/BarryAndrewsMEP/"
+        }
+      ],
       "committees": [
         {
           "code": "DEVE",
@@ -15100,7 +15138,7 @@
       "country": "Croatia",
       "group": "S&D",
       "groupLabel": "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament",
-      "nationalParty": "Socijaldemokratska partija Hrvatske",
+      "nationalParty": "-",
       "photo": "https://www.europarl.europa.eu/mepphoto/112747.jpg",
       "email": "romana.jerkovic@europarl.europa.eu",
       "homepages": [],
@@ -17545,6 +17583,11 @@
           "code": "EMPL",
           "name": "Employment and Social Affairs",
           "role": "member"
+        },
+        {
+          "code": "IMCO",
+          "name": "Internal Market and Consumer Protection",
+          "role": "substitute"
         },
         {
           "code": "SANT",
@@ -20229,8 +20272,16 @@
           "url": "https://www.instagram.com/anacatarinamendes/"
         },
         {
+          "kind": "facebook",
+          "url": "https://www.facebook.com/MendesAnaCatarina"
+        },
+        {
           "kind": "x",
           "url": "https://x.com/acmendes73"
+        },
+        {
+          "kind": "linkedin",
+          "url": "https://www.linkedin.com/in/anacatarinamendesps/"
         }
       ],
       "committees": [
@@ -27854,32 +27905,6 @@
         }
       ],
       "epProfile": "https://www.europarl.europa.eu/meps/en/257082"
-    },
-    {
-      "id": "220908",
-      "slug": "branko-grims",
-      "fullName": "Branko GRIMS",
-      "givenName": "Branko",
-      "familyName": "Grims",
-      "country": "Slovenia",
-      "group": "NI",
-      "groupLabel": "Non-attached Members",
-      "nationalParty": "Slovenska demokratska stranka",
-      "photo": "https://www.europarl.europa.eu/mepphoto/220908.jpg",
-      "email": "branko.grims@europarl.europa.eu",
-      "homepages": [],
-      "accounts": [
-        {
-          "kind": "instagram",
-          "url": "https://www.instagram.com/branko.grims.eu/"
-        },
-        {
-          "kind": "x",
-          "url": "https://x.com/BrankoGrimsX1"
-        }
-      ],
-      "committees": [],
-      "epProfile": "https://www.europarl.europa.eu/meps/en/220908"
     },
     {
       "id": "256862",

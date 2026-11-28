@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:04:20.093Z",
+  "generatedAt": "2026-11-28T11:51:46.681Z",
   "links": [
     {
       "mepId": "840",
@@ -7,7 +7,7 @@
       "handle": "charlesgoerens.bsky.social",
       "displayName": "Charles Goerens",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kdidpgseqfgmcmcgqavjt3bg/bafkreigsjscejsmqgocudfp3caarmyh5vkuaqbjvucehctgbnjl5km7cry",
-      "followers": 356,
+      "followers": 357,
       "posts": 35,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -18,8 +18,8 @@
       "handle": "bernd-lange.bsky.social",
       "displayName": "Bernd Lange MdEP",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kq3eopbm6m7xtzb335pp7rf3/bafkreiaurxtxh32gsieb5gf3lb3pu2tgq7za6k3typ4fa6bmtoutvahfm4",
-      "followers": 738,
-      "posts": 489,
+      "followers": 749,
+      "posts": 516,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -29,8 +29,8 @@
       "handle": "ferber.bsky.social",
       "displayName": "Markus Ferber, MEP",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:l5f6kie2z3xbwmnzuwbmmvzf/bafkreierzjg5pttpruvcyceucz3se4ogqan4g5djuiewu43w4f5xs4a4qq",
-      "followers": 877,
-      "posts": 851,
+      "followers": 883,
+      "posts": 872,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -41,7 +41,7 @@
       "displayName": "Udo Bullmann",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mdqamwuslree7u6ctczvklub/bafkreig3lrktv3crnb7u4fyybwbgsp3uihopmlcueru2vylrjdqm3qegoy",
       "followers": 315,
-      "posts": 562,
+      "posts": 585,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -51,7 +51,7 @@
       "handle": "kvanbrempt.bsky.social",
       "displayName": "Kathleen Van Brempt",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hm7gxiruzbgp4nschpyuxdd5/bafkreihn6mthm73keitdzubgbryeu4gggg63tnrbiucwev6kxzacqqhhbe",
-      "followers": 777,
+      "followers": 781,
       "posts": 111,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -62,7 +62,7 @@
       "handle": "aschwab.bsky.social",
       "displayName": "Andreas Schwab",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ona4oxxhg244xb4op5gzl4de/bafkreibcy5aobuutt3rsdtc5cvajf4mhrosw4khn2vs26dxaky7hylnoxq",
-      "followers": 2048,
+      "followers": 2055,
       "posts": 58,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -73,7 +73,7 @@
       "handle": "j-morenosanchez.bsky.social",
       "displayName": "Javier Moreno Sánchez",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:f564so7sq5csgfvicjvgobfv/bafkreiesy5464tlmayubz4nnos4sp3esfwrktvz4uiuxnys7yqyl2n2ei4",
-      "followers": 102,
+      "followers": 105,
       "posts": 10,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -84,7 +84,7 @@
       "handle": "inesevaidere.bsky.social",
       "displayName": "Inese Vaidere",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6h6npzryg3phjstwn4ffqzhj/bafkreicfuovrdzfzqlula33nicwisynmjx6yhxi4hxpaq3frlmd5462cxa",
-      "followers": 48,
+      "followers": 50,
       "posts": 19,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -95,7 +95,7 @@
       "handle": "bartsienkiewicz.bsky.social",
       "displayName": "Bartłomiej Sienkiewicz",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bhhigl53mu62e7muzybwstzu/bafkreidhtu4ozaffdxhnslekdqcnvd2dgkwr7we22lgnrhgkfopbbeasuy",
-      "followers": 3605,
+      "followers": 3608,
       "posts": 62,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -106,8 +106,8 @@
       "handle": "annacavazzini.bsky.social",
       "displayName": "Anna Cavazzini",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6zbv7mepbzpz6pmqqu7wnl6y/bafkreie44kzlllpdqw4uzfyd2zofizmvylyf4ucauwzxdsyraigu54qssm",
-      "followers": 5243,
-      "posts": 1410,
+      "followers": 5262,
+      "posts": 1433,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -117,7 +117,7 @@
       "handle": "pcanfin.bsky.social",
       "displayName": "Pascal Canfin",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nwdjuw4mdoonf2ciavtv37ss/bafkreif65tqzcstvfdzeja4bhmvdxxgftqcn6feihfeffdsnmup7oeguka",
-      "followers": 1513,
+      "followers": 1515,
       "posts": 111,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -128,8 +128,8 @@
       "handle": "martinhaeusling.bsky.social",
       "displayName": "Martin Häusling",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlta4czknp34owsfqwgj4qj2/bafkreieldq2doxj5mlbliqcjuhbhkzgefw2kfdzknk3aedd2swfp2bziuy",
-      "followers": 1936,
-      "posts": 786,
+      "followers": 1946,
+      "posts": 789,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -139,7 +139,7 @@
       "handle": "monika-hohlmeier.bsky.social",
       "displayName": "MONIKA HOHLMEIER - MEP",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ts4hy2y6ypadexdkm2ncrxyo/bafkreihtnfi5zfdsdcpzvm5inknjts7zea7n6mezjdrvkma3ermwt4hxym",
-      "followers": 721,
+      "followers": 725,
       "posts": 20,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -150,8 +150,19 @@
       "handle": "evelynregner.bsky.social",
       "displayName": "Evelyn Regner",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gykski73rwpjbmxluv5ybw66/bafkreifplvy5q3tjmghai6dft76xhatsik4lg7f7utvvclkcjqs2aoc454",
-      "followers": 268,
-      "posts": 11,
+      "followers": 276,
+      "posts": 12,
+      "verifiedByBluesky": true,
+      "method": "verified"
+    },
+    {
+      "mepId": "97236",
+      "did": "did:plc:rcuvr4wwohraplhxbvw6g6jv",
+      "handle": "marietouss1.bsky.social",
+      "displayName": "Marie Toussaint",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rcuvr4wwohraplhxbvw6g6jv/bafkreicwkrbp22pyyh2oecrsqlupn5ixc5n2weiigrmej3xzfeafjeivti",
+      "followers": 4001,
+      "posts": 358,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -161,7 +172,7 @@
       "handle": "dirkgotink.bsky.social",
       "displayName": "Dirk Gotink",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bstpkrn6i7dexcorunsmxk4p/bafkreiawoanqhqpiba7eyrnc3mi3sverhp674ouzd7iazc3xgc5cm2wctu",
-      "followers": 270,
+      "followers": 273,
       "posts": 12,
       "verifiedByBluesky": true,
       "method": "ep-listed"
@@ -172,8 +183,8 @@
       "handle": "terryreintke.bsky.social",
       "displayName": "Terry Reintke",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:64phpz5fsnd2llwhhizw6ddo/bafkreieunv2qpizdxjindloi2qzkar5eqhtf76dn5k26i4pbacnhwpsftu",
-      "followers": 13934,
-      "posts": 207,
+      "followers": 13947,
+      "posts": 211,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -183,8 +194,8 @@
       "handle": "danielfreund.bsky.social",
       "displayName": "Daniel Freund",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lrcpndrpp3o2vz34abjbnf33/bafkreidnwpt7qci4ga3wohragtqzo5gjgf5ajhoxl4lxr7zd3pluebtfmq",
-      "followers": 3757,
-      "posts": 354,
+      "followers": 3767,
+      "posts": 356,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -194,8 +205,19 @@
       "handle": "president.europarl.europa.eu",
       "displayName": "Roberta Metsola",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lb6fy3jgnz6wjgqfnigusgml/bafkreif2rs7cexgwqo7wuik6pnq4dvlln2a2n4e5qy2q3so3gi3e4s7jg4",
-      "followers": 12289,
-      "posts": 837,
+      "followers": 12357,
+      "posts": 851,
+      "verifiedByBluesky": true,
+      "method": "verified"
+    },
+    {
+      "mepId": "124893",
+      "did": "did:plc:o32r6s3wvjblxapeizw5r7t2",
+      "handle": "zdrojewski.bsky.social",
+      "displayName": "Bogdan Zdrojewski MEP",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o32r6s3wvjblxapeizw5r7t2/bafkreibxbqblttsvzbszogseecdez4cym754yc46biwf6cxx2znjdh5v74",
+      "followers": 1205,
+      "posts": 79,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -205,9 +227,9 @@
       "handle": "lnbdublin.bsky.social",
       "displayName": "Lynn Boylan MEP",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:e4f6yunf3rhpj7uz5iuveq7c/bafkreiggabppp6n5ct6eycuzubuv5adtuvr3lywaduk3qivdripusqlp54",
-      "followers": 2444,
-      "posts": 225,
-      "verifiedByBluesky": false,
+      "followers": 2457,
+      "posts": 226,
+      "verifiedByBluesky": true,
       "method": "ep-listed"
     },
     {
@@ -216,8 +238,30 @@
       "handle": "anjahazekamp.bsky.social",
       "displayName": "Anja Hazekamp",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o3exqg3eumujclhrtwc6p2re/bafkreihqpi3xkv32f4c4djmds3cydnu2dlzxw7aq5knuqlmcbkc4co275q",
-      "followers": 1056,
-      "posts": 122,
+      "followers": 1064,
+      "posts": 124,
+      "verifiedByBluesky": true,
+      "method": "verified"
+    },
+    {
+      "mepId": "127766",
+      "did": "did:plc:mtxtaemv37fbbazmfjwjzvg2",
+      "handle": "saramo.bsky.social",
+      "displayName": "Jussi Saramo",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mtxtaemv37fbbazmfjwjzvg2/bafkreiezf473qunpwev2ayyiuco5ttxg34gzcgihlbpwyhz67e65kvkquy",
+      "followers": 4237,
+      "posts": 738,
+      "verifiedByBluesky": true,
+      "method": "verified"
+    },
+    {
+      "mepId": "130100",
+      "did": "did:plc:6rvwl2jceinpaqbp3qsqmuil",
+      "handle": "hildevautmans.bsky.social",
+      "displayName": "Hilde Vautmans",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6rvwl2jceinpaqbp3qsqmuil/bafkreid7aovwfnx3i2lfvkcaynqzzkdziejkkj7glmamxd667fne7iqfqm",
+      "followers": 1085,
+      "posts": 146,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -227,7 +271,7 @@
       "handle": "valeriehayer.bsky.social",
       "displayName": "Valérie Hayer",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xnyqu62hsxxc5kuvsoxtvfrm/bafkreihpn6a33d2fim5rmfbc3gcxuwyyik66rkl5oaz4bl77xdpc4mdcvy",
-      "followers": 4280,
+      "followers": 4291,
       "posts": 145,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -238,7 +282,7 @@
       "handle": "alexandrageese.eurosky.social",
       "displayName": "Alexandra Geese",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:q7ipi5qgxbphajdzoqquodso/bafkreihsi74drgortqzmtfkaj664phg4ql4iv37ckq24vxj3z43tnz3v4y",
-      "followers": 5258,
+      "followers": 5280,
       "posts": 370,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -249,7 +293,7 @@
       "handle": "woelken.eu",
       "displayName": "Tiemo Wölken",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mc5f4klxrthdwtzicx73d5r5/bafkreianoh4e4u54vf7rtc5sy3nznn7uytasnuv5umu7zifckclcxirwfa",
-      "followers": 3074,
+      "followers": 3083,
       "posts": 76,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -260,8 +304,8 @@
       "handle": "thomaswaitz.bsky.social",
       "displayName": "Thomas Waitz",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jivv24hu4khfu2avhfgp2a6x/bafkreidqvp6emm7xrobi4fudtmxxh45dn3lzcopeb5vaneo7ot5fsv5uku",
-      "followers": 6028,
-      "posts": 782,
+      "followers": 6032,
+      "posts": 784,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -271,8 +315,19 @@
       "handle": "schirdewan.bsky.social",
       "displayName": "Martin Schirdewan",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yfl3pzm2acwexmhasru7gq7e/bafkreifhrs35p3g6s6ovqlmxsng6ahvwidfrrjljznamhbwfqnwf7rnafu",
-      "followers": 1998,
-      "posts": 183,
+      "followers": 2000,
+      "posts": 191,
+      "verifiedByBluesky": true,
+      "method": "verified"
+    },
+    {
+      "mepId": "193292",
+      "did": "did:plc:v7ccypeyux2yvk5zn7yx2uho",
+      "handle": "tillymetz.bsky.social",
+      "displayName": "Tilly Metz",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:v7ccypeyux2yvk5zn7yx2uho/bafkreic22m5uarg7c5hnyb7xsbf74sdazbdzalwmhv7nroag477o3l7hba",
+      "followers": 2131,
+      "posts": 91,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -282,7 +337,7 @@
       "handle": "abiralsahlani.bsky.social",
       "displayName": "Abir Al-Sahlani",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:femx7ffapbhn6zdhppggwlxo/bafkreigibpq2cavrc7ccvwbsptikgwwrdzucgpeed6ruhefk3vbo7jnbta",
-      "followers": 2506,
+      "followers": 2719,
       "posts": 19,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -293,7 +348,7 @@
       "handle": "jcoetjen.bsky.social",
       "displayName": "Jan-Christoph Oetjen",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cbpo6futaeofshr3ao54vemr/bafkreicgntx64wchnlnqdt3zbfa2mj4gbsilyvtakhp66n5tt2c4tglppe",
-      "followers": 139,
+      "followers": 140,
       "posts": 2,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -304,8 +359,19 @@
       "handle": "katarina-barley.de",
       "displayName": "Katarina Barley",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ehohlqb4w4wvpsgigt23txjr/bafkreiftkt722qbmcz3bjeix3pgs6mthqbf7a4yi7s75mokcytx2k73xom",
-      "followers": 8589,
+      "followers": 8597,
       "posts": 140,
+      "verifiedByBluesky": true,
+      "method": "verified"
+    },
+    {
+      "mepId": "197435",
+      "did": "did:plc:fmvth7s6a3fnh4wv2yzeukhc",
+      "handle": "gabischoff.bsky.social",
+      "displayName": "Gabriele Bischoff",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fmvth7s6a3fnh4wv2yzeukhc/bafkreige37kw2c6zj6qghtfes2kn56zqw32qioav3tw5loxwmxghfwy5dq",
+      "followers": 1148,
+      "posts": 59,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -315,7 +381,7 @@
       "handle": "dboeselager.volteuropa.org",
       "displayName": "Damian Boeselager",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hq2lla55dwyzgh4afs7d3z77/bafkreihagxbow46rovrkusogmirk27un5w3wsy6td75hrhc7ilzdy2wpb4",
-      "followers": 2506,
+      "followers": 2510,
       "posts": 35,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -326,7 +392,7 @@
       "handle": "moritzkoerner.bsky.social",
       "displayName": "Moritz Körner",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fjof34bhzgt6oqblcjvimbef/bafkreib4f3asz5j4rihn5io6rynfo55xdezpv3ewa32it5j4oq62375uhe",
-      "followers": 244,
+      "followers": 245,
       "posts": 16,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -337,8 +403,8 @@
       "handle": "rasmusandresen.bsky.social",
       "displayName": "Rasmus Andresen",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ubsfee7aofznwila7oraat3v/bafkreiggwus5owqjklzf72gh7ozgkh2mdrokmespbg76zjmqnz2qbhhkna",
-      "followers": 3653,
-      "posts": 374,
+      "followers": 3664,
+      "posts": 376,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -348,8 +414,8 @@
       "handle": "michabloss.bsky.social",
       "displayName": "Michael Bloss",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:64zuhrtcbz5q3avoabnsnqnv/bafkreifvtis6v2fhyb4mp4mw6g4zcsbz7dixdm4ddebtexwgab4bjyb6zq",
-      "followers": 9233,
-      "posts": 1251,
+      "followers": 9242,
+      "posts": 1259,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -359,8 +425,8 @@
       "handle": "erik-marquardt.eu",
       "displayName": "Erik Marquardt",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o6kqa3h73juszsovlvqvwwqu/bafkreih253zwgqapxywciznj763l3h7vw7ayyln5vgyp5qsswyr2piqnfa",
-      "followers": 23105,
-      "posts": 561,
+      "followers": 23170,
+      "posts": 566,
       "verifiedByBluesky": true,
       "method": "domain"
     },
@@ -370,8 +436,8 @@
       "handle": "hneumannmep.bsky.social",
       "displayName": "Hannah Neumann",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:e5zovfwtwpbvlkk5gcfsusjo/bafkreigwzw6rnimgfnk54icvlhbvediqzv5lqlqjurib6u4qeugtfegacq",
-      "followers": 4387,
-      "posts": 1454,
+      "followers": 4399,
+      "posts": 1475,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -381,8 +447,8 @@
       "handle": "juttapaulus.bsky.social",
       "displayName": "Jutta Paulus ",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3vortkligfrnu2aelx2owvzn/bafkreicu6vndyt3h6rqvrch53mzpfiq7g4cpyccmkrzvjxjfjtalitrhgy",
-      "followers": 5399,
-      "posts": 811,
+      "followers": 5425,
+      "posts": 818,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -392,7 +458,7 @@
       "handle": "oezlemademirel.bsky.social",
       "displayName": "Özlem Alev Demirel",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fxtt22pp4ilnloncddqeajyy/bafkreihczbryzhgqy3amb7wfaq2k37tfk2jkkg5b363cgxhrcmkfpkmz4i",
-      "followers": 110,
+      "followers": 112,
       "posts": 1,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -403,8 +469,8 @@
       "handle": "saskiabricmont.bsky.social",
       "displayName": "Saskia Bricmont",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:k5rku3etcxicjvb2sycrrwc6/bafkreigzz63d3gtq4ggf6w2dccrrkbmcit74foclcwzzvfpurwjjbpzeha",
-      "followers": 3231,
-      "posts": 1171,
+      "followers": 3245,
+      "posts": 1189,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -414,8 +480,8 @@
       "handle": "mounirsatouri.bsky.social",
       "displayName": "Mounir Satouri",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cyjo4zgngvfenxeuphdz6jwe/bafkreiald3wg2fjagcsbg3tafrzyn2277zksvdcl5nf3ggbam2emxjrv7i",
-      "followers": 1793,
-      "posts": 889,
+      "followers": 1806,
+      "posts": 914,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -425,7 +491,7 @@
       "handle": "davidcormand.bsky.social",
       "displayName": "David Cormand🌻🇪🇺",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:oxh6q36stisv3cl35arrfkg6/bafkreiav66f2hm2o53teetvp24k7hwiixwjlzjj2xvtag57atw2mj5bss4",
-      "followers": 5256,
+      "followers": 5258,
       "posts": 606,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -436,8 +502,8 @@
       "handle": "leilachaibi.bsky.social",
       "displayName": "Leïla Chaibi",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zxsokchlp42onjpuo7c6c7vw/bafkreidpsck4dk54v5y2pgczyimh7arnuncmedoxwa6fsiakjpksukj4ey",
-      "followers": 4253,
-      "posts": 806,
+      "followers": 4276,
+      "posts": 814,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -447,8 +513,8 @@
       "handle": "manonaubryfr.bsky.social",
       "displayName": "Manon Aubry",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5w4jlfdtbdzxpryfihvvm5h4/bafkreihvr2kvutjq3kqeeqkp2k66e6nro7jdjecykf6icvhou4sdglbrfi",
-      "followers": 25065,
-      "posts": 1539,
+      "followers": 25114,
+      "posts": 1555,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -458,7 +524,7 @@
       "handle": "marketkag.eurosky.social",
       "displayName": "Markéta Gregorová 🦄",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7ikwubxjioj6wp2hhgro3c5g/bafkreig5fqirap7fylwykn5cxwix6t2fzze3w6rpt6n4ctwyzmhqcijf3u",
-      "followers": 2444,
+      "followers": 2466,
       "posts": 265,
       "verifiedByBluesky": false,
       "method": "ep-listed"
@@ -469,7 +535,7 @@
       "handle": "grudlerch.bsky.social",
       "displayName": "Christophe GRUDLER",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nln4drnfhsvmnzlyjgjz6hsx/bafkreihbdylzkbhmyvrzwd5di6pqxax7bnnjiy4dd7gu4zqkrniwr5qska",
-      "followers": 1030,
+      "followers": 1033,
       "posts": 89,
       "verifiedByBluesky": true,
       "method": "ep-listed"
@@ -480,7 +546,7 @@
       "handle": "kiramph.bsky.social",
       "displayName": "Kira Marie Peter-Hansen",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jzumlwq5wfgqdgpauctc4kif/bafkreibhjwoo7lwpiaxpfxsdsbpt7nfzcthymhmxy3o2qbuw5fwgyzllgy",
-      "followers": 4001,
+      "followers": 4007,
       "posts": 23,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -491,8 +557,8 @@
       "handle": "damiencareme.bsky.social",
       "displayName": "Damien CAREME",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6boo64z7kfp47xxuzrp2og4o/bafkreifxhfwbui7o256ldo3sqjojzeohxfqbpwiaxsrk2vbhubnakzpiv4",
-      "followers": 2820,
-      "posts": 583,
+      "followers": 2861,
+      "posts": 596,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -502,7 +568,7 @@
       "handle": "schieder.bsky.social",
       "displayName": "Andreas Schieder",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rd67o6f5xe2yitd7uqruly3t/bafkreih5uha46fgdaf5pw7vd7kdtdprkzsgyuqkwru6gk2swvmov6pk5di",
-      "followers": 677,
+      "followers": 679,
       "posts": 10,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -513,8 +579,8 @@
       "handle": "cesarluena.bsky.social",
       "displayName": "César Luena",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4c5oe6azil7urierfstyyrhx/bafkreiajuxxffkzkflpiuc7xyx5yqdgj4oy2jijjgqwl2vaqfjhb32vrdq",
-      "followers": 726,
-      "posts": 1246,
+      "followers": 736,
+      "posts": 1285,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -524,8 +590,19 @@
       "handle": "nachosamor.bsky.social",
       "displayName": "Nacho Sánchez Amor",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3pj6w6ggoackjmj4xdjrlvzn/bafkreifeksqftrf53nqribhhge4w2vbelu4drku3orun7rzo4gcp6gxddu",
-      "followers": 203,
+      "followers": 207,
       "posts": 290,
+      "verifiedByBluesky": true,
+      "method": "verified"
+    },
+    {
+      "mepId": "197770",
+      "did": "did:plc:nojuesviy2c6viyogod7vbn7",
+      "handle": "martinhojsik.bsky.social",
+      "displayName": "Martin Hojsik",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nojuesviy2c6viyogod7vbn7/bafkreibmatf7kpvpznifkazcf6yym445hcmhlm5deeeuvmgtbeqryeujie",
+      "followers": 1347,
+      "posts": 584,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -535,8 +612,30 @@
       "handle": "tinekestrik.bsky.social",
       "displayName": "Tineke Strik",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pdh53wn6jqcnplb4dymhnfj7/bafkreiczh35o2vmy4zntpsoouohawobxss66rj3s76gqfgxs56lm7yfkfq",
-      "followers": 3007,
-      "posts": 324,
+      "followers": 3066,
+      "posts": 332,
+      "verifiedByBluesky": true,
+      "method": "verified"
+    },
+    {
+      "mepId": "197780",
+      "did": "did:plc:g4ydegvaclawd4qiurk52wmx",
+      "handle": "bartgroothuis.bsky.social",
+      "displayName": "Bart Groothuis",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:g4ydegvaclawd4qiurk52wmx/bafkreidkipzcbgnjwgu5bldkyqvhidnijd37cryjbo7vxu3h6tt6fsefuu",
+      "followers": 2800,
+      "posts": 409,
+      "verifiedByBluesky": true,
+      "method": "verified"
+    },
+    {
+      "mepId": "197782",
+      "did": "did:plc:zks27elanmifmhm2pjtdecwp",
+      "handle": "chahim.bsky.social",
+      "displayName": "Mohammed Chahim",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zks27elanmifmhm2pjtdecwp/bafkreibhclzanhfqb6yjbxdwwcma6dbidnds6dq4mjzrjbza3mre3mqiay",
+      "followers": 2574,
+      "posts": 315,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -546,7 +645,7 @@
       "handle": "eeroheinaluoma.bsky.social",
       "displayName": "Eero Heinäluoma",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ufarjqo7nalxtxca62bgjs2q/bafkreigt5mekfjc5cwtohhahbkncvd6xtud7x3rasiobfwkc7sg4gegn7i",
-      "followers": 595,
+      "followers": 598,
       "posts": 2,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -557,8 +656,8 @@
       "handle": "villeniinisto.vihreat.fi",
       "displayName": "Ville Niinistö",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7223omu7dx6f3m27ufvno24f/bafkreih65hlhf6upbiflgl5zsr24a2sbd7v7jhcrduorb625jxjif2dzlm",
-      "followers": 6016,
-      "posts": 532,
+      "followers": 6026,
+      "posts": 535,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -568,7 +667,7 @@
       "handle": "rjukneviciene.bsky.social",
       "displayName": "Rasa Juknevičienė 🇱🇹🇪🇺",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:netrw3k6bskh2rww5gng7a3u/bafkreib4gsdgpsd3mniboy2nbpv6vrffydet656lubqyt44jfequdefgqa",
-      "followers": 147,
+      "followers": 151,
       "posts": 21,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -576,11 +675,11 @@
     {
       "mepId": "197870",
       "did": "did:plc:zddx2lmnd56ave35rhtiapfr",
-      "handle": "kimvsparrentak.bsky.social",
+      "handle": "kim.oso.social",
       "displayName": "Kim van Sparrentak",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zddx2lmnd56ave35rhtiapfr/bafkreidyqcoglltcsjjacsj4cabszaraiio3z3mr6ktuzllrtnts7urugm",
-      "followers": 4210,
-      "posts": 111,
+      "followers": 4261,
+      "posts": 121,
       "verifiedByBluesky": true,
       "method": "ep-listed"
     },
@@ -590,8 +689,8 @@
       "handle": "mariaohisalo.vihreat.fi",
       "displayName": "Maria Ohisalo",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wm267ncadvnk3aa3s7v6erfi/bafkreiacpqzfht66r5oj4hlhuvzqlozj2z2zccikddwlyil3rvu2zaxb3i",
-      "followers": 5446,
-      "posts": 1052,
+      "followers": 5460,
+      "posts": 1078,
       "verifiedByBluesky": true,
       "method": "ep-listed"
     },
@@ -601,8 +700,8 @@
       "handle": "noramebarek.bsky.social",
       "displayName": "Nora MEBAREK",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cbvwkb4xattsw3p4njexl3x4/bafkreibqi3qyxdlijysfwlqziqxelgespgdbxurfkfv25z255v5h66r7my",
-      "followers": 598,
-      "posts": 181,
+      "followers": 600,
+      "posts": 182,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -612,7 +711,7 @@
       "handle": "sandrogozi.bsky.social",
       "displayName": "Sandro Gozi",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:n2znvuumoexrdt2rr4myk7l4/bafkreih7nbnmc6upytho3vn4namvh6ifw4zaz4opdoxwhgfx6lpwzpvzza",
-      "followers": 1370,
+      "followers": 1378,
       "posts": 275,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -623,8 +722,8 @@
       "handle": "manuelaripa.bsky.social",
       "displayName": "Manuela Ripa, MEP 🌍🌱🐝",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jcadtf2ckxu5qfm6rj7vvy3q/bafkreie4ig6yyejjhd3vzc7onljnidkbovopyezlqxh5jqwfqb6vyi56oq",
-      "followers": 627,
-      "posts": 490,
+      "followers": 631,
+      "posts": 493,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -634,8 +733,8 @@
       "handle": "saramatthieu.bsky.social",
       "displayName": "Sara Matthieu",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5unxo6yyezylk4gawzziiywi/bafkreigcsvkuryjbv6j2dpy5fdu7l3njaa3mkbxac4u3rrgs2t3ait5jna",
-      "followers": 2213,
-      "posts": 814,
+      "followers": 2222,
+      "posts": 824,
       "verifiedByBluesky": true,
       "method": "ep-listed"
     },
@@ -645,8 +744,8 @@
       "handle": "thijsreuten.bsky.social",
       "displayName": "Thijs Reuten",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sfmwtdoyhmphdazqtve6zdv5/bafkreie4dz75mng6jbpcvpul7p26q3nb6k4tbdooce276o3wjkwisqb4xu",
-      "followers": 1915,
-      "posts": 347,
+      "followers": 1921,
+      "posts": 352,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -656,10 +755,21 @@
       "handle": "sophiewilmes.bsky.social",
       "displayName": "Sophie Wilmès",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zjtyybjelg2zihdpoifkffet/bafkreifcj3uzglqxznezzk5cqosqocwykqgh4ttttzmgyyt6vwqqs4cbpi",
-      "followers": 288,
+      "followers": 294,
       "posts": 17,
       "verifiedByBluesky": false,
       "method": "ep-listed"
+    },
+    {
+      "mepId": "236053",
+      "did": "did:plc:d5tc4uzqssehn4aotvxz3k3z",
+      "handle": "marinamesure.bsky.social",
+      "displayName": "Marina Mesure",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d5tc4uzqssehn4aotvxz3k3z/bafkreiar62ui5bqnsh7ocu4evlymsqrwwxcgfjp7w6tfx2vgvodypjynzm",
+      "followers": 2961,
+      "posts": 272,
+      "verifiedByBluesky": true,
+      "method": "verified"
     },
     {
       "mepId": "237465",
@@ -667,8 +777,8 @@
       "handle": "matthiasecke.bsky.social",
       "displayName": "Matthias Ecke",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:enac7iduew6yv7n57dt6kjut/bafkreic3i2mnt6v5z62n3lmnfud3yjqelvmqrmc5aqwl2ovkiv6buvy4o4",
-      "followers": 2750,
-      "posts": 227,
+      "followers": 2755,
+      "posts": 229,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -678,8 +788,8 @@
       "handle": "lenaats.bsky.social",
       "displayName": "Lena Schilling",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rgvfetxzkejrttetmclc72v4/bafkreihnqpyxxqn2ondj3lehkf2iqrl7cfk53nkyjaxzcdyulea44tr7za",
-      "followers": 5056,
-      "posts": 707,
+      "followers": 5095,
+      "posts": 721,
       "verifiedByBluesky": true,
       "method": "ep-listed"
     },
@@ -689,7 +799,7 @@
       "handle": "btobback.bsky.social",
       "displayName": "Bruno Tobback",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zusn3shecqgcjkttfp2ssak3/bafkreic5bm7j3ebv6ryruetwofs6lxm6jp2kqv4ossi4j7ycj2uqcw2umy",
-      "followers": 144,
+      "followers": 148,
       "posts": 38,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -700,8 +810,8 @@
       "handle": "rudikennes.bsky.social",
       "displayName": "Rudi Kennes",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:twe4npbi5yfmqkm4tya3kqzn/bafkreibpqsxvtknkwnkah53teh4sqsvqdvh36cwtltjmx34bbp2kuudwcy",
-      "followers": 328,
-      "posts": 561,
+      "followers": 336,
+      "posts": 567,
       "verifiedByBluesky": true,
       "method": "ep-listed"
     },
@@ -711,7 +821,7 @@
       "handle": "pierrejouvet.fr",
       "displayName": "Pierre Jouvet",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pqtio7lynib7yiulk22gy3dq/bafkreifa4noru56dndjahn2kim2cbhae77xs7jjw3bwhdpzpdpls2ns7ye",
-      "followers": 2756,
+      "followers": 2769,
       "posts": 556,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -722,7 +832,7 @@
       "handle": "muriellelaurent.bsky.social",
       "displayName": "Murielle Laurent",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uvh3yphnrnsskilhbqsyzvm3/bafkreifl3f5id4tgwci56wtyifgocxmv6dwetqzmlc75vf3ejs4iy3gvmm",
-      "followers": 177,
+      "followers": 179,
       "posts": 38,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -733,8 +843,8 @@
       "handle": "emmarafowicz.bsky.social",
       "displayName": "Emma Rafowicz",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:h5uhhplowuik4vw75sgg6nbv/bafkreifao5cfzspkrmvpvthyevveqr2s2eayosncpvwzwx2va2uq4no4wi",
-      "followers": 1777,
-      "posts": 96,
+      "followers": 1787,
+      "posts": 100,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -744,8 +854,8 @@
       "handle": "tpellerincarlin.bsky.social",
       "displayName": "Thomas Pellerin-Carlin",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uf7p5nyc7npinisiixyhl7tp/bafkreifopbylvqlbu2ponh7wv6thsmt7ucet4jbiy7ghwyeov7snsrdvs4",
-      "followers": 1697,
-      "posts": 1735,
+      "followers": 1729,
+      "posts": 1748,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -755,8 +865,8 @@
       "handle": "chloe-ridel.fr",
       "displayName": "Chloé Ridel",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:j2pa7ahxn6ffzq6hdxgyxbcv/bafkreid5qweln6yfttfdvrsnfmqwywoswhb2f5srtjgzs2mi5v7d3yaxoy",
-      "followers": 5843,
-      "posts": 590,
+      "followers": 5869,
+      "posts": 609,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -766,7 +876,7 @@
       "handle": "francoiskalfon.bsky.social",
       "displayName": "François Kalfon",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:r7syi6tvz6vaksnmgytliha3/bafkreid7xwoi33knw4xbm3fu24pjkow6nctuih3euuyob2pchunkzwhxuu",
-      "followers": 288,
+      "followers": 301,
       "posts": 83,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -777,8 +887,8 @@
       "handle": "smithanthony.bsky.social",
       "displayName": "Anthony Smith",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wlmuef5hesr7at53xzlvx2zk/bafkreidsckn6nmr5px4ev6mpifpzzcehwrxlo66upd5np4pblop65rgd4q",
-      "followers": 6773,
-      "posts": 1554,
+      "followers": 6790,
+      "posts": 1566,
       "verifiedByBluesky": true,
       "method": "verified"
     },
@@ -788,7 +898,7 @@
       "handle": "arashsaeidi.bsky.social",
       "displayName": "arash saeidi",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ivhy23gd4rrf4omfd7sysu54/bafkreidzdtjpbcsxgevarjkxrocmokdyq4bmpropcjllam4pyg2shsyylm",
-      "followers": 1335,
+      "followers": 1340,
       "posts": 336,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -799,7 +909,7 @@
       "handle": "majdoulinesbai.bsky.social",
       "displayName": "Majdouline Sbaï",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cw6vz7rlb7b7lxd3rngqeygw/bafkreiamrjfah6qhdn4zovyjjr52s5ptyfxycsg6tplnxuuyapftncrq74",
-      "followers": 1398,
+      "followers": 1403,
       "posts": 222,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -810,7 +920,7 @@
       "handle": "masz.bsky.social",
       "displayName": "Marie-Agnes Strack-Zimmermann",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:qpr66hmtmctd5tdfl7gotxwz/bafkreidqeh5x7fv4gbqboocgsqp4iqk7lxxzp6bccmsn42iwaxfhgc2kwa",
-      "followers": 35847,
+      "followers": 35852,
       "posts": 572,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -821,7 +931,7 @@
       "handle": "lukassiepermdep.bsky.social",
       "displayName": "Lukas Sieper, MdEP",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rcspi2c26x7faj2gk7alj2ha/bafkreiar4ump46re7jae5c4u62sbdidiwgkqdyx7lsjuepxouyv5qano3u",
-      "followers": 181,
+      "followers": 185,
       "posts": 231,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -832,9 +942,9 @@
       "handle": "leirepajin.bsky.social",
       "displayName": "Leire Pajín",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:h6ip3cyvtpun6xxstb5xmtgr/bafkreigyy7gvnqzmbk64agzejd37cvnp2tr5nv5gvsydc6tvaswwvifm3q",
-      "followers": 1067,
-      "posts": 323,
-      "verifiedByBluesky": false,
+      "followers": 1076,
+      "posts": 326,
+      "verifiedByBluesky": true,
       "method": "ep-listed"
     },
     {
@@ -843,7 +953,7 @@
       "handle": "idoiamendia.bsky.social",
       "displayName": "Idoia Mendia",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fccrazusclqm53q4fiqq2shl/bafkreieokoibvduu2clluuessudmjrhwrbreoa7bbydgpoqqm3k7wslczm",
-      "followers": 1006,
+      "followers": 1013,
       "posts": 125,
       "verifiedByBluesky": true,
       "method": "ep-listed"
@@ -854,8 +964,8 @@
       "handle": "gordanbosanac.bsky.social",
       "displayName": "Gordan Bosanac",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7w7nngrk2hr4yvdjcpts5mqs/bafkreibfyu3jk6k27kbacxmpforzynjj4rb3lznu5viyjcuws4v4iocvdy",
-      "followers": 384,
-      "posts": 189,
+      "followers": 389,
+      "posts": 194,
       "verifiedByBluesky": true,
       "method": "ep-listed"
     },
@@ -865,9 +975,9 @@
       "handle": "josecepeda.bsky.social",
       "displayName": "José Cepeda",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xj2aaxp6tq5h6h3fsvmqlp7o/bafkreicvncg4pn6mcor4x37j3b5nvgqkhy5jixcm4fshrkcnyar4ukfd44",
-      "followers": 414,
+      "followers": 422,
       "posts": 338,
-      "verifiedByBluesky": false,
+      "verifiedByBluesky": true,
       "method": "ep-listed"
     },
     {
@@ -876,7 +986,7 @@
       "handle": "luciayar.bsky.social",
       "displayName": "Lucia Yar",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:oeahwecwyyu5wohe3bontg3k/bafkreigwanipxkehys3usahditqtx5kur45uzhlksnt5ncjxnrl3nieh2q",
-      "followers": 186,
+      "followers": 189,
       "posts": 25,
       "verifiedByBluesky": false,
       "method": "ep-listed"
@@ -887,9 +997,9 @@
       "handle": "estrellagalan.bsky.social",
       "displayName": "Estrella Galán 🔻",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7xp75tb6x2h46nbmbii5fy7u/bafkreiahaabboobbnxys3diziocuyxvlraqgubjyj6f2x46hqtt37tqaga",
-      "followers": 1797,
-      "posts": 681,
-      "verifiedByBluesky": false,
+      "followers": 1826,
+      "posts": 690,
+      "verifiedByBluesky": true,
       "method": "ep-listed"
     },
     {
@@ -898,7 +1008,7 @@
       "handle": "jaumeasens.bsky.social",
       "displayName": "Jaume Asens",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:py5g6swmfgpmcyrqkngby5in/bafkreiaxdn5wflrrkytbe4aptuccoui7koedn7zbjyvohbb6nvdu6vox4m",
-      "followers": 2029,
+      "followers": 2037,
       "posts": 176,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -909,7 +1019,7 @@
       "handle": "gasiukpihowicz.bsky.social",
       "displayName": "Kamila Gasiuk-Pihowicz",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:e53zmgroewbb4wdacacpkmdj/bafkreid7oppaya7jhybosei3lm76banodfh6dctu5olculvtcmujjvsdcm",
-      "followers": 613,
+      "followers": 615,
       "posts": 27,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -920,7 +1030,7 @@
       "handle": "nielsflemming.konservative.dk",
       "displayName": "Niels Flemming Hansen",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d7oxiuwubgru52xic2356xj6/bafkreigtyptoqqvv4pnnhyrmzs57i4bzgu6zjpxoknyaumxbt5dofxhpfu",
-      "followers": 469,
+      "followers": 471,
       "posts": 31,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -931,7 +1041,7 @@
       "handle": "sigridfriis.bsky.social",
       "displayName": "Sigrid Friis",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:oqcdk2rdotvlexe3e6xnhstj/bafkreiddnc4tefwpwki333ihzfbw33bijp6lns2o54enrgbf47nkffa3ai",
-      "followers": 1079,
+      "followers": 1082,
       "posts": 42,
       "verifiedByBluesky": true,
       "method": "verified"
@@ -942,10 +1052,21 @@
       "handle": "catarinamartins.bsky.social",
       "displayName": "Catarina Martins",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:htdqrn2ozizizdjshfyb5ohu/bafkreiasx5mhdicbc3352wmwnlfdx7v2gwd2uug2l76nie2vjutp5wunpq",
-      "followers": 3466,
-      "posts": 1926,
+      "followers": 3485,
+      "posts": 1949,
       "verifiedByBluesky": true,
       "method": "ep-listed"
+    },
+    {
+      "mepId": "257238",
+      "did": "did:plc:s7zez45zm3ikd7hpgatvwlx4",
+      "handle": "aodhanoriordain.bsky.social",
+      "displayName": "Aodhán Ó Ríordáin MEP",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:s7zez45zm3ikd7hpgatvwlx4/bafkreibtwohhyesyop7i4dnjejlzuzs3hb2c2ffpmiuhvtutgbtf3z3il4",
+      "followers": 2599,
+      "posts": 783,
+      "verifiedByBluesky": true,
+      "method": "verified"
     },
     {
       "mepId": "257437",
@@ -953,8 +1074,8 @@
       "handle": "catarina-europe.bsky.social",
       "displayName": "Catarina Vieira",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dsujz7d7bg3p74uqxo2u4xdv/bafkreihys47odbotvtjhunbs33dmjn5pseroh4p7tmqoy56gkvy6xtloaa",
-      "followers": 1716,
-      "posts": 293,
+      "followers": 1723,
+      "posts": 303,
       "verifiedByBluesky": true,
       "method": "ep-listed"
     },
@@ -964,8 +1085,8 @@
       "handle": "mguenther.bsky.social",
       "displayName": "Martin Günther",
       "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:imvvpbzyitf45bcev3culdqs/bafkreihhesw22ieymrzs2fxhkmrpxejisp3bjq7rowl57heev6hpg3udju",
-      "followers": 113,
-      "posts": 102,
+      "followers": 115,
+      "posts": 105,
       "verifiedByBluesky": false,
       "method": "ep-listed"
     }
